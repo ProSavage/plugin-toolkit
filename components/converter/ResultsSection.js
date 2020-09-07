@@ -16,12 +16,19 @@ export default function ResultsSection(props) {
   const [factions, setFactions] = useState(undefined);
 
   useEffect(() => {
-    if (!converterContext.started) return;
+    if (!converterContext.started || !converterContext.getSelectedPlugin()) return;
     setRun(true);
     // convert players...
     convertPlayers(converterContext.converterFiles.Fplayers.file).then(
       (playerData) => {
         setPlayers(playerData);
+        let roleTag;
+        const selectedPlugin = converterContext.getSelectedPlugin();
+        if (selectedPlugin === "FactionsUUID") {
+          roleTag = "ADMIN"
+        } else if (selectedPlugin === "SavageFactions" ||  selectedPlugin === "SaberFactions") {
+          roleTag = "LEADER"
+        }
         convertBoard(converterContext.converterFiles.Board.file).then(
           (gridData) => {
             setGrid(gridData);
@@ -29,7 +36,8 @@ export default function ResultsSection(props) {
             convertFactions(
               playerData.data.fplayers,
               gridData.data.claimGrid,
-              converterContext.converterFiles.Factions.file
+              converterContext.converterFiles.Factions.file,
+              selectedPlugin
             ).then((data) => setFactions(data));
           }
         );

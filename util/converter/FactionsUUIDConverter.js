@@ -44,7 +44,7 @@ export const convertBoard = async (file) => {
   });
 };
 
-export const convertFactions = async (players, grid, file) => {
+export const convertFactions = async (players, grid, file, roleTag) => {
   console.log("started converting factions...");
   const fileReader = new FileReader();
   const convertedData = {};
@@ -67,29 +67,22 @@ export const convertFactions = async (players, grid, file) => {
           const player = players[playerID];
           if (player.currentFactionID === id) {
             members.push(player.uuid);
-            if (player.role.roleTag === "Leader") {
+            if (player.role.roleTag === roleTag) {
               leader = player.uuid;
             }
           }
         }
-
-
-
         const idInt = parseInt(id);
         // Map ids correctly for system factions.
         if (idInt === -1) idInt = 2
         if (idInt === -2) idInt = 1
         if (idInt > highestID) highestID = idInt;
-
-
         let claimAmt = 0
         grid.forEach(entry => {
             if (entry[1] === idInt) {
                 claimAmt++;
             }
         })
-
-
         convertedData[idInt] = {
           // FactionsX will find this from leader's date.
           creationDate: null,

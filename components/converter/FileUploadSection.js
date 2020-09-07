@@ -14,7 +14,6 @@ export default function FileUploadSection(props) {
     const files = converterContext.converterFiles;
     const datafile = { file, valid: 0 };
     files[name] = datafile;
-    
     const reader = new FileReader();
     reader.onload = (e) => {
       const text = e.target.result;
@@ -84,6 +83,7 @@ export default function FileUploadSection(props) {
   };
 
   const allValid = () => {
+      if (!converterContext.getSelectedPlugin()) return false;
       const keys = Object.keys(converterContext.converterFiles)
       if (keys.length !== 3) return false;
       for (const key of keys) {
