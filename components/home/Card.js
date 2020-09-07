@@ -16,7 +16,7 @@ const Wrapper = styled.div`
   margin-right: 40px;
   padding: 15px 25px;
   border-radius: 5px;
-  border: 2px solid #eaeaea;
+  border: 2px dashed #eaeaea;
   text-align: left;
 
   display: flex;
@@ -26,6 +26,10 @@ const Wrapper = styled.div`
   max-width: 15rem;
 
   cursor: pointer;
+  transition: 250ms ease-in-out;
+  &:hover {
+    border: 2px solid #06d6a0;
+  }
 `;
 
 const Header = styled.p`

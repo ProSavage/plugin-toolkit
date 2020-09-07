@@ -51,12 +51,9 @@ const CodeContainer = styled.div`
   background: #eaeaea;
   border-radius: 5px;
   padding: 10px;
-`;
-
-const Logo = styled.img`
-  width: 175px;
   cursor: pointer;
 `;
+
 
 const Item = styled.div`
   padding-left: 50px;
