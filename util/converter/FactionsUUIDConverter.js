@@ -19,7 +19,6 @@ export const convertBoard = async (file) => {
         const claims = Object.keys(claimsObject);
         for (const claimCoordinate of claims) {
           const factionID = claimsObject[claimCoordinate];
-          console.log(factionID)
           const split = claimCoordinate.split(",");
           const x = parseInt(split[0]);
           const z = parseInt(split[1]);
