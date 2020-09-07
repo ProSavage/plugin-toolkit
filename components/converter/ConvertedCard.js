@@ -2,11 +2,22 @@ import styled from "styled-components";
 import Button from "../ui/Button";
 
 export default function ConvertedCard(props) {
-
-const round = (num, decimalPlaces) => {
+  const round = (num, decimalPlaces) => {
     num = Math.round(num + "e" + decimalPlaces);
     return Number(num + "e" + -decimalPlaces);
-}
+  };
+
+  const downloadObjectAsJson = (exportObj, exportName) => {
+    var dataStr =
+      "data:text/json;charset=utf-8," +
+      encodeURIComponent(JSON.stringify(exportObj));
+    var downloadAnchorNode = document.createElement("a");
+    downloadAnchorNode.setAttribute("href", dataStr);
+    downloadAnchorNode.setAttribute("download", exportName + ".json");
+    document.body.appendChild(downloadAnchorNode); // required for firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+  };
 
   return (
     <Wrapper>
@@ -14,7 +25,9 @@ const round = (num, decimalPlaces) => {
       <SubText>Took {round(props.time, 3)} nanoseconds</SubText>
       <SubText>{props.found}</SubText>
       <ButtonContainer>
-        <Button secondary>Download</Button>
+        <Button secondary onClick={() => {
+          downloadObjectAsJson(props.data, props.name)
+        }}>Download</Button>
       </ButtonContainer>
     </Wrapper>
   );

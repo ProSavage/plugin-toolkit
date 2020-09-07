@@ -1,4 +1,51 @@
-export const convertFactions = async (players, file) => {
+export const convertBoard = async (file) => {
+  console.log("started converting factions...");
+  const fileReader = new FileReader();
+  const convertedData = {};
+  convertedData.claimGrid = [];
+  let highestID = 0;
+  return new Promise((resolve, reject) => {
+    fileReader.onerror = () => {
+      fileReader.abort();
+      reject(new DOMException("Problem parsing file"));
+    };
+    fileReader.onload = (event) => {
+      const now = performance.now() + performance.timeOrigin;
+      const data = JSON.parse(event.target.result);
+      const worlds = Object.keys(data);
+      for (const worldName of worlds) {
+        const claimsObject = data[worldName];
+        console.log("Processing", worldName);
+        const claims = Object.keys(claimsObject);
+        for (const claimCoordinate of claims) {
+          const factionID = claimsObject[claimCoordinate];
+          console.log(factionID)
+          const split = claimCoordinate.split(",");
+          const x = parseInt(split[0]);
+          const z = parseInt(split[1]);
+          convertedData.claimGrid.push([
+            {
+              x,
+              z,
+              world: worldName,
+            },
+            parseInt(factionID),
+          ]);
+        }
+      }
+      const finished = performance.now() + performance.timeOrigin;
+      const time = finished - now;
+      console.log("factions:", time, "nanos", "amount", convertedData.claimGrid.length);
+      resolve({
+        time,
+        data: { claimGrid: convertedData.claimGrid },
+      });
+    };
+    fileReader.readAsText(file);
+  });
+};
+
+export const convertFactions = async (players, grid, file) => {
   console.log("started converting factions...");
   const fileReader = new FileReader();
   const convertedData = {};
@@ -14,22 +61,37 @@ export const convertFactions = async (players, file) => {
       const idKeys = Object.keys(data);
       for (const id of idKeys) {
         const faction = data[id];
-        const members = []
+        const members = [];
         let leader;
-        const playerIDs = Object.keys(players)
+        const playerIDs = Object.keys(players);
         for (const playerID of playerIDs) {
-            const player = players[playerID]
-            if (player.currentFactionID === id) {
-                members.push(player.uuid)
-                if (player.role.roleTag === "Leader") {
-                    leader = player.uuid
-                }
+          const player = players[playerID];
+          if (player.currentFactionID === id) {
+            members.push(player.uuid);
+            if (player.role.roleTag === "Leader") {
+              leader = player.uuid;
             }
+          }
         }
 
-        const idInt = parseInt(id)
+
+
+        const idInt = parseInt(id);
+        // Map ids correctly for system factions.
+        if (idInt === -1) idInt = 2
+        if (idInt === -2) idInt = 1
         if (idInt > highestID) highestID = idInt;
-        convertedData[id] = {
+
+
+        let claimAmt = 0
+        grid.forEach(entry => {
+            if (entry[1] === idInt) {
+                claimAmt++;
+            }
+        })
+
+
+        convertedData[idInt] = {
           // FactionsX will find this from leader's date.
           creationDate: null,
           factionMembers: members,
@@ -46,26 +108,29 @@ export const convertFactions = async (players, file) => {
           shielded: false,
           claimUpgrades: {},
           // TODO: Move grid first
-          claimAmt: 0,
+          claimAmt: claimAmt,
           openStatus: false,
           discord: "N/A",
           paypal: "N/A",
           bank: {
-              amount: 0.0,
-              nextId: 1,
-              logs: []
+            amount: 0.0,
+            nextId: 1,
+            logs: [],
           },
           id: idInt,
           tag: faction.tag,
           factionRoles: allRoles,
           relationPerms: relationPerms,
-          ownerId: leader
+          ownerId: leader,
         };
       }
       const finished = performance.now() + performance.timeOrigin;
       const time = finished - now;
       console.log("factions:", time, "nanos", "amount", idKeys.length);
-      resolve({ time, data: {nextFactionId: highestID,factions: convertedData} });
+      resolve({
+        time,
+        data: { nextFactionId: highestID, factions: convertedData },
+      });
     };
     fileReader.readAsText(file);
   });
@@ -94,7 +159,7 @@ export const convertPlayers = async (file) => {
         }
         convertedData[uuid] = {
           // can be migrated, but dont wanna cause issues.
-          chatMode: "PUBLIC",
+          chatChannel: "PUBLIC",
           isFFlying: false,
           confirmAction: {
             status: false,
@@ -135,358 +200,349 @@ export const convertPlayers = async (file) => {
 };
 
 const allRoles = {
-    "roleHierarchy": {
-        "4": {
-            "chatTag": "***",
-            "roleTag": "Leader",
-            "allowedPlayerActions": [
-                "HURT_MOB",
-                "BUTTON",
-                "LEVER",
-                "PRESSURE_PLATE",
-                "FENCE_GATE",
-                "TRAPDOOR",
-                "HOOK",
-                "HOPPER",
-                "LECTERN",
-                "COMPARATOR",
-                "REPEATER",
-                "DISPENSER",
-                "DOOR",
-                "CHEST",
-                "ENDER_CHEST",
-                "ANVIL",
-                "BREWING_STAND",
-                "ENCHANTING_TABLE",
-                "FURNACE",
-                "DROPPER",
-                "CAULDRON",
-                "SPAWN_EGG",
-                "BREAK_BLOCK",
-                "PLACE_BLOCK",
-                "EMPTY_BUCKET",
-                "FILL_BUCKET",
-                "USE_BLACKLISTED_BLOCKS",
-                "USE_ENTITY"
-            ],
-            "allowedMemberActions": [
-                "KICK",
-                "DISBAND",
-                "INVITE",
-                "DEINVITE",
-                "DEMOTE",
-                "PREFIX",
-                "RENAME",
-                "UNCLAIMALL",
-                "CHANGE_DESCRIPTION",
-                "FLY",
-                "HOME",
-                "SETHOME",
-                "CLAIM",
-                "UNCLAIM",
-                "WARP",
-                "SET_WARP",
-                "DEL_WARP",
-                "VIEW_WARP_PASSWORD",
-                "RELATION",
-                "OPEN",
-                "PAYPAL_SET",
-                "DISCORD_SET",
-                "PROMOTE",
-                "BANK_WITHDRAW",
-                "BANK_DEPOSIT",
-                "BANK_PAY",
-                "BANK_LOGS"
-            ],
-            "specialActions": {},
-            "iconMaterial": "DIAMOND_HELMET"
-        },
-        "3": {
-            "chatTag": "**",
-            "roleTag": "Administrator",
-            "allowedPlayerActions": [
-                "HURT_MOB",
-                "BUTTON",
-                "LEVER",
-                "PRESSURE_PLATE",
-                "FENCE_GATE",
-                "TRAPDOOR",
-                "HOOK",
-                "HOPPER",
-                "LECTERN",
-                "COMPARATOR",
-                "REPEATER",
-                "DISPENSER",
-                "DOOR",
-                "CHEST",
-                "ENDER_CHEST",
-                "ANVIL",
-                "BREWING_STAND",
-                "ENCHANTING_TABLE",
-                "FURNACE",
-                "DROPPER",
-                "CAULDRON",
-                "SPAWN_EGG",
-                "BREAK_BLOCK",
-                "PLACE_BLOCK",
-                "EMPTY_BUCKET",
-                "FILL_BUCKET",
-                "USE_BLACKLISTED_BLOCKS",
-                "USE_ENTITY"
-            ],
-            "allowedMemberActions": [
-                "KICK",
-                "INVITE",
-                "DEINVITE",
-                "DEMOTE",
-                "PREFIX",
-                "RENAME",
-                "UNCLAIMALL",
-                "CHANGE_DESCRIPTION",
-                "FLY",
-                "HOME",
-                "SETHOME",
-                "CLAIM",
-                "UNCLAIM",
-                "WARP",
-                "SET_WARP",
-                "DEL_WARP",
-                "VIEW_WARP_PASSWORD",
-                "RELATION",
-                "OPEN",
-                "PAYPAL_SET",
-                "DISCORD_SET",
-                "PROMOTE",
-                "BANK_WITHDRAW",
-                "BANK_DEPOSIT",
-                "BANK_PAY",
-                "BANK_LOGS"
-            ],
-            "specialActions": {},
-            "iconMaterial": "IRON_HELMET"
-        },
-        "2": {
-            "chatTag": "*",
-            "roleTag": "Moderator",
-            "allowedPlayerActions": [
-                "HURT_MOB",
-                "BUTTON",
-                "LEVER",
-                "PRESSURE_PLATE",
-                "FENCE_GATE",
-                "TRAPDOOR",
-                "HOOK",
-                "HOPPER",
-                "LECTERN",
-                "COMPARATOR",
-                "REPEATER",
-                "DISPENSER",
-                "DOOR",
-                "CHEST",
-                "ENDER_CHEST",
-                "ANVIL",
-                "BREWING_STAND",
-                "ENCHANTING_TABLE",
-                "FURNACE",
-                "DROPPER",
-                "CAULDRON",
-                "SPAWN_EGG",
-                "BREAK_BLOCK",
-                "PLACE_BLOCK",
-                "EMPTY_BUCKET",
-                "FILL_BUCKET",
-                "USE_BLACKLISTED_BLOCKS",
-                "USE_ENTITY"
-            ],
-            "allowedMemberActions": [
-                "INVITE",
-                "KICK",
-                "PROMOTE",
-                "RELATION"
-            ],
-            "specialActions": {},
-            "iconMaterial": "GOLDEN_HELMET"
-        },
-        "1": {
-            "chatTag": "+",
-            "roleTag": "Member",
-            "allowedPlayerActions": [
-                "HURT_MOB",
-                "BUTTON",
-                "LEVER",
-                "PRESSURE_PLATE",
-                "FENCE_GATE",
-                "TRAPDOOR",
-                "HOOK",
-                "HOPPER",
-                "LECTERN",
-                "COMPARATOR",
-                "REPEATER",
-                "DISPENSER",
-                "DOOR",
-                "CHEST",
-                "ENDER_CHEST",
-                "ANVIL",
-                "BREWING_STAND",
-                "ENCHANTING_TABLE",
-                "FURNACE",
-                "DROPPER",
-                "CAULDRON",
-                "SPAWN_EGG",
-                "BREAK_BLOCK",
-                "PLACE_BLOCK",
-                "EMPTY_BUCKET",
-                "FILL_BUCKET",
-                "USE_BLACKLISTED_BLOCKS",
-                "USE_ENTITY"
-            ],
-            "allowedMemberActions": [],
-            "specialActions": {},
-            "iconMaterial": "CHAINMAIL_HELMET"
-        },
-        "0": {
-            "chatTag": "-",
-            "roleTag": "Recruit",
-            "allowedPlayerActions": [
-                "BREAK_BLOCK",
-                "PLACE_BLOCK"
-            ],
-            "allowedMemberActions": [],
-            "specialActions": {},
-            "iconMaterial": "LEATHER_HELMET"
-        }
-    }
-}
+  roleHierarchy: {
+    "4": {
+      chatTag: "***",
+      roleTag: "Leader",
+      allowedPlayerActions: [
+        "HURT_MOB",
+        "BUTTON",
+        "LEVER",
+        "PRESSURE_PLATE",
+        "FENCE_GATE",
+        "TRAPDOOR",
+        "HOOK",
+        "HOPPER",
+        "LECTERN",
+        "COMPARATOR",
+        "REPEATER",
+        "DISPENSER",
+        "DOOR",
+        "CHEST",
+        "ENDER_CHEST",
+        "ANVIL",
+        "BREWING_STAND",
+        "ENCHANTING_TABLE",
+        "FURNACE",
+        "DROPPER",
+        "CAULDRON",
+        "SPAWN_EGG",
+        "BREAK_BLOCK",
+        "PLACE_BLOCK",
+        "EMPTY_BUCKET",
+        "FILL_BUCKET",
+        "USE_BLACKLISTED_BLOCKS",
+        "USE_ENTITY",
+      ],
+      allowedMemberActions: [
+        "KICK",
+        "DISBAND",
+        "INVITE",
+        "DEINVITE",
+        "DEMOTE",
+        "PREFIX",
+        "RENAME",
+        "UNCLAIMALL",
+        "CHANGE_DESCRIPTION",
+        "FLY",
+        "HOME",
+        "SETHOME",
+        "CLAIM",
+        "UNCLAIM",
+        "WARP",
+        "SET_WARP",
+        "DEL_WARP",
+        "VIEW_WARP_PASSWORD",
+        "RELATION",
+        "OPEN",
+        "PAYPAL_SET",
+        "DISCORD_SET",
+        "PROMOTE",
+        "BANK_WITHDRAW",
+        "BANK_DEPOSIT",
+        "BANK_PAY",
+        "BANK_LOGS",
+      ],
+      specialActions: {},
+      iconMaterial: "DIAMOND_HELMET",
+    },
+    "3": {
+      chatTag: "**",
+      roleTag: "Administrator",
+      allowedPlayerActions: [
+        "HURT_MOB",
+        "BUTTON",
+        "LEVER",
+        "PRESSURE_PLATE",
+        "FENCE_GATE",
+        "TRAPDOOR",
+        "HOOK",
+        "HOPPER",
+        "LECTERN",
+        "COMPARATOR",
+        "REPEATER",
+        "DISPENSER",
+        "DOOR",
+        "CHEST",
+        "ENDER_CHEST",
+        "ANVIL",
+        "BREWING_STAND",
+        "ENCHANTING_TABLE",
+        "FURNACE",
+        "DROPPER",
+        "CAULDRON",
+        "SPAWN_EGG",
+        "BREAK_BLOCK",
+        "PLACE_BLOCK",
+        "EMPTY_BUCKET",
+        "FILL_BUCKET",
+        "USE_BLACKLISTED_BLOCKS",
+        "USE_ENTITY",
+      ],
+      allowedMemberActions: [
+        "KICK",
+        "INVITE",
+        "DEINVITE",
+        "DEMOTE",
+        "PREFIX",
+        "RENAME",
+        "UNCLAIMALL",
+        "CHANGE_DESCRIPTION",
+        "FLY",
+        "HOME",
+        "SETHOME",
+        "CLAIM",
+        "UNCLAIM",
+        "WARP",
+        "SET_WARP",
+        "DEL_WARP",
+        "VIEW_WARP_PASSWORD",
+        "RELATION",
+        "OPEN",
+        "PAYPAL_SET",
+        "DISCORD_SET",
+        "PROMOTE",
+        "BANK_WITHDRAW",
+        "BANK_DEPOSIT",
+        "BANK_PAY",
+        "BANK_LOGS",
+      ],
+      specialActions: {},
+      iconMaterial: "IRON_HELMET",
+    },
+    "2": {
+      chatTag: "*",
+      roleTag: "Moderator",
+      allowedPlayerActions: [
+        "HURT_MOB",
+        "BUTTON",
+        "LEVER",
+        "PRESSURE_PLATE",
+        "FENCE_GATE",
+        "TRAPDOOR",
+        "HOOK",
+        "HOPPER",
+        "LECTERN",
+        "COMPARATOR",
+        "REPEATER",
+        "DISPENSER",
+        "DOOR",
+        "CHEST",
+        "ENDER_CHEST",
+        "ANVIL",
+        "BREWING_STAND",
+        "ENCHANTING_TABLE",
+        "FURNACE",
+        "DROPPER",
+        "CAULDRON",
+        "SPAWN_EGG",
+        "BREAK_BLOCK",
+        "PLACE_BLOCK",
+        "EMPTY_BUCKET",
+        "FILL_BUCKET",
+        "USE_BLACKLISTED_BLOCKS",
+        "USE_ENTITY",
+      ],
+      allowedMemberActions: ["INVITE", "KICK", "PROMOTE", "RELATION"],
+      specialActions: {},
+      iconMaterial: "GOLDEN_HELMET",
+    },
+    "1": {
+      chatTag: "+",
+      roleTag: "Member",
+      allowedPlayerActions: [
+        "HURT_MOB",
+        "BUTTON",
+        "LEVER",
+        "PRESSURE_PLATE",
+        "FENCE_GATE",
+        "TRAPDOOR",
+        "HOOK",
+        "HOPPER",
+        "LECTERN",
+        "COMPARATOR",
+        "REPEATER",
+        "DISPENSER",
+        "DOOR",
+        "CHEST",
+        "ENDER_CHEST",
+        "ANVIL",
+        "BREWING_STAND",
+        "ENCHANTING_TABLE",
+        "FURNACE",
+        "DROPPER",
+        "CAULDRON",
+        "SPAWN_EGG",
+        "BREAK_BLOCK",
+        "PLACE_BLOCK",
+        "EMPTY_BUCKET",
+        "FILL_BUCKET",
+        "USE_BLACKLISTED_BLOCKS",
+        "USE_ENTITY",
+      ],
+      allowedMemberActions: [],
+      specialActions: {},
+      iconMaterial: "CHAINMAIL_HELMET",
+    },
+    "0": {
+      chatTag: "-",
+      roleTag: "Recruit",
+      allowedPlayerActions: ["BREAK_BLOCK", "PLACE_BLOCK"],
+      allowedMemberActions: [],
+      specialActions: {},
+      iconMaterial: "LEATHER_HELMET",
+    },
+  },
+};
 
 const relationPerms = {
-    "info": {
-        "ALLY": {
-            "USE_ENTITY": false,
-            "BREWING_STAND": false,
-            "HURT_PLAYER": false,
-            "BUTTON": false,
-            "REPEATER": false,
-            "ENDER_CHEST": false,
-            "TRAPDOOR": false,
-            "PLACE_BLOCK": false,
-            "DISPENSER": false,
-            "FILL_BUCKET": false,
-            "BREAK_BLOCK": false,
-            "DROPPER": false,
-            "PRESSURE_PLATE": false,
-            "LECTERN": false,
-            "FENCE_GATE": false,
-            "COMPARATOR": false,
-            "EMPTY_BUCKET": false,
-            "USE_BLACKLISTED_BLOCKS": false,
-            "HOOK": false,
-            "FURNACE": false,
-            "HOPPER": false,
-            "DOOR": false,
-            "CHEST": false,
-            "ANVIL": false,
-            "SPAWN_EGG": false,
-            "LEVER": false,
-            "ENCHANTING_TABLE": false,
-            "HURT_MOB": false,
-            "CAULDRON": false
-        },
-        "NEUTRAL": {
-            "USE_ENTITY": false,
-            "BREWING_STAND": false,
-            "HURT_PLAYER": false,
-            "BUTTON": false,
-            "REPEATER": false,
-            "ENDER_CHEST": false,
-            "TRAPDOOR": false,
-            "PLACE_BLOCK": false,
-            "DISPENSER": false,
-            "FILL_BUCKET": false,
-            "BREAK_BLOCK": false,
-            "DROPPER": false,
-            "PRESSURE_PLATE": false,
-            "LECTERN": false,
-            "FENCE_GATE": false,
-            "COMPARATOR": false,
-            "EMPTY_BUCKET": false,
-            "USE_BLACKLISTED_BLOCKS": false,
-            "HOOK": false,
-            "FURNACE": false,
-            "HOPPER": false,
-            "DOOR": false,
-            "CHEST": false,
-            "ANVIL": false,
-            "SPAWN_EGG": false,
-            "LEVER": false,
-            "ENCHANTING_TABLE": false,
-            "HURT_MOB": false,
-            "CAULDRON": false
-        },
-        "TRUCE": {
-            "USE_ENTITY": false,
-            "BREWING_STAND": false,
-            "HURT_PLAYER": false,
-            "BUTTON": false,
-            "REPEATER": false,
-            "ENDER_CHEST": false,
-            "TRAPDOOR": false,
-            "PLACE_BLOCK": false,
-            "DISPENSER": false,
-            "FILL_BUCKET": false,
-            "BREAK_BLOCK": false,
-            "DROPPER": false,
-            "PRESSURE_PLATE": false,
-            "LECTERN": false,
-            "FENCE_GATE": false,
-            "COMPARATOR": false,
-            "EMPTY_BUCKET": false,
-            "USE_BLACKLISTED_BLOCKS": false,
-            "HOOK": false,
-            "FURNACE": false,
-            "HOPPER": false,
-            "DOOR": false,
-            "CHEST": false,
-            "ANVIL": false,
-            "SPAWN_EGG": false,
-            "LEVER": false,
-            "ENCHANTING_TABLE": false,
-            "HURT_MOB": false,
-            "CAULDRON": false
-        },
-        "ENEMY": {
-            "USE_ENTITY": false,
-            "BREWING_STAND": false,
-            "HURT_PLAYER": false,
-            "BUTTON": false,
-            "REPEATER": false,
-            "ENDER_CHEST": false,
-            "TRAPDOOR": false,
-            "PLACE_BLOCK": false,
-            "DISPENSER": false,
-            "FILL_BUCKET": false,
-            "BREAK_BLOCK": false,
-            "DROPPER": false,
-            "PRESSURE_PLATE": false,
-            "LECTERN": false,
-            "FENCE_GATE": false,
-            "COMPARATOR": false,
-            "EMPTY_BUCKET": false,
-            "USE_BLACKLISTED_BLOCKS": false,
-            "HOOK": false,
-            "FURNACE": false,
-            "HOPPER": false,
-            "DOOR": false,
-            "CHEST": false,
-            "ANVIL": false,
-            "SPAWN_EGG": false,
-            "LEVER": false,
-            "ENCHANTING_TABLE": false,
-            "HURT_MOB": false,
-            "CAULDRON": false
-        }
-    }
-}
-
+  info: {
+    ALLY: {
+      USE_ENTITY: false,
+      BREWING_STAND: false,
+      HURT_PLAYER: false,
+      BUTTON: false,
+      REPEATER: false,
+      ENDER_CHEST: false,
+      TRAPDOOR: false,
+      PLACE_BLOCK: false,
+      DISPENSER: false,
+      FILL_BUCKET: false,
+      BREAK_BLOCK: false,
+      DROPPER: false,
+      PRESSURE_PLATE: false,
+      LECTERN: false,
+      FENCE_GATE: false,
+      COMPARATOR: false,
+      EMPTY_BUCKET: false,
+      USE_BLACKLISTED_BLOCKS: false,
+      HOOK: false,
+      FURNACE: false,
+      HOPPER: false,
+      DOOR: false,
+      CHEST: false,
+      ANVIL: false,
+      SPAWN_EGG: false,
+      LEVER: false,
+      ENCHANTING_TABLE: false,
+      HURT_MOB: false,
+      CAULDRON: false,
+    },
+    NEUTRAL: {
+      USE_ENTITY: false,
+      BREWING_STAND: false,
+      HURT_PLAYER: false,
+      BUTTON: false,
+      REPEATER: false,
+      ENDER_CHEST: false,
+      TRAPDOOR: false,
+      PLACE_BLOCK: false,
+      DISPENSER: false,
+      FILL_BUCKET: false,
+      BREAK_BLOCK: false,
+      DROPPER: false,
+      PRESSURE_PLATE: false,
+      LECTERN: false,
+      FENCE_GATE: false,
+      COMPARATOR: false,
+      EMPTY_BUCKET: false,
+      USE_BLACKLISTED_BLOCKS: false,
+      HOOK: false,
+      FURNACE: false,
+      HOPPER: false,
+      DOOR: false,
+      CHEST: false,
+      ANVIL: false,
+      SPAWN_EGG: false,
+      LEVER: false,
+      ENCHANTING_TABLE: false,
+      HURT_MOB: false,
+      CAULDRON: false,
+    },
+    TRUCE: {
+      USE_ENTITY: false,
+      BREWING_STAND: false,
+      HURT_PLAYER: false,
+      BUTTON: false,
+      REPEATER: false,
+      ENDER_CHEST: false,
+      TRAPDOOR: false,
+      PLACE_BLOCK: false,
+      DISPENSER: false,
+      FILL_BUCKET: false,
+      BREAK_BLOCK: false,
+      DROPPER: false,
+      PRESSURE_PLATE: false,
+      LECTERN: false,
+      FENCE_GATE: false,
+      COMPARATOR: false,
+      EMPTY_BUCKET: false,
+      USE_BLACKLISTED_BLOCKS: false,
+      HOOK: false,
+      FURNACE: false,
+      HOPPER: false,
+      DOOR: false,
+      CHEST: false,
+      ANVIL: false,
+      SPAWN_EGG: false,
+      LEVER: false,
+      ENCHANTING_TABLE: false,
+      HURT_MOB: false,
+      CAULDRON: false,
+    },
+    ENEMY: {
+      USE_ENTITY: false,
+      BREWING_STAND: false,
+      HURT_PLAYER: false,
+      BUTTON: false,
+      REPEATER: false,
+      ENDER_CHEST: false,
+      TRAPDOOR: false,
+      PLACE_BLOCK: false,
+      DISPENSER: false,
+      FILL_BUCKET: false,
+      BREAK_BLOCK: false,
+      DROPPER: false,
+      PRESSURE_PLATE: false,
+      LECTERN: false,
+      FENCE_GATE: false,
+      COMPARATOR: false,
+      EMPTY_BUCKET: false,
+      USE_BLACKLISTED_BLOCKS: false,
+      HOOK: false,
+      FURNACE: false,
+      HOPPER: false,
+      DOOR: false,
+      CHEST: false,
+      ANVIL: false,
+      SPAWN_EGG: false,
+      LEVER: false,
+      ENCHANTING_TABLE: false,
+      HURT_MOB: false,
+      CAULDRON: false,
+    },
+  },
+};
 
 const normalRole = {
   role: {
