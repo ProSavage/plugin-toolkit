@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
 import "./../style.css"
+import "./../prism.css"
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -29,4 +30,5 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100vw;
+  height: 100vh;
 `;

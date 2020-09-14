@@ -1,0 +1,4278 @@
+[
+  {
+    "niceName": "Acacia Boat",
+    "ID": "ACACIA_BOAT"
+  },
+  {
+    "niceName": "Acacia Button",
+    "ID": "ACACIA_BUTTON"
+  },
+  {
+    "niceName": "Acacia Door",
+    "ID": "ACACIA_DOOR"
+  },
+  {
+    "niceName": "Acacia Fence",
+    "ID": "ACACIA_FENCE"
+  },
+  {
+    "niceName": "Acacia Fence Gate",
+    "ID": "ACACIA_FENCE_GATE"
+  },
+  {
+    "niceName": "Acacia Leaves",
+    "ID": "ACACIA_LEAVES"
+  },
+  {
+    "niceName": "Acacia Log",
+    "ID": "ACACIA_LOG"
+  },
+  {
+    "niceName": "Acacia Planks",
+    "ID": "ACACIA_PLANKS"
+  },
+  {
+    "niceName": "Acacia Pressure Plate",
+    "ID": "ACACIA_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Acacia Sapling",
+    "ID": "ACACIA_SAPLING"
+  },
+  {
+    "niceName": "Acacia Sign",
+    "ID": "ACACIA_SIGN"
+  },
+  {
+    "niceName": "Acacia Slab",
+    "ID": "ACACIA_SLAB"
+  },
+  {
+    "niceName": "Acacia Stairs",
+    "ID": "ACACIA_STAIRS"
+  },
+  {
+    "niceName": "Acacia Trapdoor",
+    "ID": "ACACIA_TRAPDOOR"
+  },
+  {
+    "niceName": "Acacia Wall Sign",
+    "ID": "ACACIA_WALL_SIGN"
+  },
+  {
+    "niceName": "Acacia Wood",
+    "ID": "ACACIA_WOOD"
+  },
+  {
+    "niceName": "Activator Rail",
+    "ID": "ACTIVATOR_RAIL"
+  },
+  {
+    "niceName": "Air",
+    "ID": "AIR"
+  },
+  {
+    "niceName": "Allium",
+    "ID": "ALLIUM"
+  },
+  {
+    "niceName": "Ancient Debris",
+    "ID": "ANCIENT_DEBRIS"
+  },
+  {
+    "niceName": "Andesite",
+    "ID": "ANDESITE"
+  },
+  {
+    "niceName": "Andesite Slab",
+    "ID": "ANDESITE_SLAB"
+  },
+  {
+    "niceName": "Andesite Stairs",
+    "ID": "ANDESITE_STAIRS"
+  },
+  {
+    "niceName": "Andesite Wall",
+    "ID": "ANDESITE_WALL"
+  },
+  {
+    "niceName": "Anvil",
+    "ID": "ANVIL"
+  },
+  {
+    "niceName": "Apple",
+    "ID": "APPLE"
+  },
+  {
+    "niceName": "Armor Stand",
+    "ID": "ARMOR_STAND"
+  },
+  {
+    "niceName": "Arrow",
+    "ID": "ARROW"
+  },
+  {
+    "niceName": "Attached Melon Stem",
+    "ID": "ATTACHED_MELON_STEM"
+  },
+  {
+    "niceName": "Attached Pumpkin Stem",
+    "ID": "ATTACHED_PUMPKIN_STEM"
+  },
+  {
+    "niceName": "Azure Bluet",
+    "ID": "AZURE_BLUET"
+  },
+  {
+    "niceName": "Baked Potato",
+    "ID": "BAKED_POTATO"
+  },
+  {
+    "niceName": "Bamboo",
+    "ID": "BAMBOO"
+  },
+  {
+    "niceName": "Bamboo Sapling",
+    "ID": "BAMBOO_SAPLING"
+  },
+  {
+    "niceName": "Barrel",
+    "ID": "BARREL"
+  },
+  {
+    "niceName": "Barrier",
+    "ID": "BARRIER"
+  },
+  {
+    "niceName": "Basalt",
+    "ID": "BASALT"
+  },
+  {
+    "niceName": "Bat Spawn Egg",
+    "ID": "BAT_SPAWN_EGG"
+  },
+  {
+    "niceName": "Beacon",
+    "ID": "BEACON"
+  },
+  {
+    "niceName": "Bedrock",
+    "ID": "BEDROCK"
+  },
+  {
+    "niceName": "Beef",
+    "ID": "BEEF"
+  },
+  {
+    "niceName": "Beehive",
+    "ID": "BEEHIVE"
+  },
+  {
+    "niceName": "Beetroot",
+    "ID": "BEETROOT"
+  },
+  {
+    "niceName": "Beetroots",
+    "ID": "BEETROOTS"
+  },
+  {
+    "niceName": "Beetroot Seeds",
+    "ID": "BEETROOT_SEEDS"
+  },
+  {
+    "niceName": "Beetroot Soup",
+    "ID": "BEETROOT_SOUP"
+  },
+  {
+    "niceName": "Bee Nest",
+    "ID": "BEE_NEST"
+  },
+  {
+    "niceName": "Bee Spawn Egg",
+    "ID": "BEE_SPAWN_EGG"
+  },
+  {
+    "niceName": "Bell",
+    "ID": "BELL"
+  },
+  {
+    "niceName": "Birch Boat",
+    "ID": "BIRCH_BOAT"
+  },
+  {
+    "niceName": "Birch Button",
+    "ID": "BIRCH_BUTTON"
+  },
+  {
+    "niceName": "Birch Door",
+    "ID": "BIRCH_DOOR"
+  },
+  {
+    "niceName": "Birch Fence",
+    "ID": "BIRCH_FENCE"
+  },
+  {
+    "niceName": "Birch Fence Gate",
+    "ID": "BIRCH_FENCE_GATE"
+  },
+  {
+    "niceName": "Birch Leaves",
+    "ID": "BIRCH_LEAVES"
+  },
+  {
+    "niceName": "Birch Log",
+    "ID": "BIRCH_LOG"
+  },
+  {
+    "niceName": "Birch Planks",
+    "ID": "BIRCH_PLANKS"
+  },
+  {
+    "niceName": "Birch Pressure Plate",
+    "ID": "BIRCH_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Birch Sapling",
+    "ID": "BIRCH_SAPLING"
+  },
+  {
+    "niceName": "Birch Sign",
+    "ID": "BIRCH_SIGN"
+  },
+  {
+    "niceName": "Birch Slab",
+    "ID": "BIRCH_SLAB"
+  },
+  {
+    "niceName": "Birch Stairs",
+    "ID": "BIRCH_STAIRS"
+  },
+  {
+    "niceName": "Birch Trapdoor",
+    "ID": "BIRCH_TRAPDOOR"
+  },
+  {
+    "niceName": "Birch Wall Sign",
+    "ID": "BIRCH_WALL_SIGN"
+  },
+  {
+    "niceName": "Birch Wood",
+    "ID": "BIRCH_WOOD"
+  },
+  {
+    "niceName": "Blackstone",
+    "ID": "BLACKSTONE"
+  },
+  {
+    "niceName": "Blackstone Slab",
+    "ID": "BLACKSTONE_SLAB"
+  },
+  {
+    "niceName": "Blackstone Stairs",
+    "ID": "BLACKSTONE_STAIRS"
+  },
+  {
+    "niceName": "Blackstone Wall",
+    "ID": "BLACKSTONE_WALL"
+  },
+  {
+    "niceName": "Black Banner",
+    "ID": "BLACK_BANNER"
+  },
+  {
+    "niceName": "Black Bed",
+    "ID": "BLACK_BED"
+  },
+  {
+    "niceName": "Black Carpet",
+    "ID": "BLACK_CARPET"
+  },
+  {
+    "niceName": "Black Concrete",
+    "ID": "BLACK_CONCRETE"
+  },
+  {
+    "niceName": "Black Concrete Powder",
+    "ID": "BLACK_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Black Dye",
+    "ID": "BLACK_DYE"
+  },
+  {
+    "niceName": "Black Glazed Terracotta",
+    "ID": "BLACK_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Black Shulker Box",
+    "ID": "BLACK_SHULKER_BOX"
+  },
+  {
+    "niceName": "Black Stained Glass",
+    "ID": "BLACK_STAINED_GLASS"
+  },
+  {
+    "niceName": "Black Stained Glass Pane",
+    "ID": "BLACK_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Black Terracotta",
+    "ID": "BLACK_TERRACOTTA"
+  },
+  {
+    "niceName": "Black Wall Banner",
+    "ID": "BLACK_WALL_BANNER"
+  },
+  {
+    "niceName": "Black Wool",
+    "ID": "BLACK_WOOL"
+  },
+  {
+    "niceName": "Blast Furnace",
+    "ID": "BLAST_FURNACE"
+  },
+  {
+    "niceName": "Blaze Powder",
+    "ID": "BLAZE_POWDER"
+  },
+  {
+    "niceName": "Blaze Rod",
+    "ID": "BLAZE_ROD"
+  },
+  {
+    "niceName": "Blaze Spawn Egg",
+    "ID": "BLAZE_SPAWN_EGG"
+  },
+  {
+    "niceName": "Blue Banner",
+    "ID": "BLUE_BANNER"
+  },
+  {
+    "niceName": "Blue Bed",
+    "ID": "BLUE_BED"
+  },
+  {
+    "niceName": "Blue Carpet",
+    "ID": "BLUE_CARPET"
+  },
+  {
+    "niceName": "Blue Concrete",
+    "ID": "BLUE_CONCRETE"
+  },
+  {
+    "niceName": "Blue Concrete Powder",
+    "ID": "BLUE_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Blue Dye",
+    "ID": "BLUE_DYE"
+  },
+  {
+    "niceName": "Blue Glazed Terracotta",
+    "ID": "BLUE_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Blue Ice",
+    "ID": "BLUE_ICE"
+  },
+  {
+    "niceName": "Blue Orchid",
+    "ID": "BLUE_ORCHID"
+  },
+  {
+    "niceName": "Blue Shulker Box",
+    "ID": "BLUE_SHULKER_BOX"
+  },
+  {
+    "niceName": "Blue Stained Glass",
+    "ID": "BLUE_STAINED_GLASS"
+  },
+  {
+    "niceName": "Blue Stained Glass Pane",
+    "ID": "BLUE_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Blue Terracotta",
+    "ID": "BLUE_TERRACOTTA"
+  },
+  {
+    "niceName": "Blue Wall Banner",
+    "ID": "BLUE_WALL_BANNER"
+  },
+  {
+    "niceName": "Blue Wool",
+    "ID": "BLUE_WOOL"
+  },
+  {
+    "niceName": "Bone",
+    "ID": "BONE"
+  },
+  {
+    "niceName": "Bone Block",
+    "ID": "BONE_BLOCK"
+  },
+  {
+    "niceName": "Bone Meal",
+    "ID": "BONE_MEAL"
+  },
+  {
+    "niceName": "Book",
+    "ID": "BOOK"
+  },
+  {
+    "niceName": "Bookshelf",
+    "ID": "BOOKSHELF"
+  },
+  {
+    "niceName": "Bow",
+    "ID": "BOW"
+  },
+  {
+    "niceName": "Bowl",
+    "ID": "BOWL"
+  },
+  {
+    "niceName": "Brain Coral",
+    "ID": "BRAIN_CORAL"
+  },
+  {
+    "niceName": "Brain Coral Block",
+    "ID": "BRAIN_CORAL_BLOCK"
+  },
+  {
+    "niceName": "Brain Coral Fan",
+    "ID": "BRAIN_CORAL_FAN"
+  },
+  {
+    "niceName": "Brain Coral Wall Fan",
+    "ID": "BRAIN_CORAL_WALL_FAN"
+  },
+  {
+    "niceName": "Bread",
+    "ID": "BREAD"
+  },
+  {
+    "niceName": "Brewing Stand",
+    "ID": "BREWING_STAND"
+  },
+  {
+    "niceName": "Brick",
+    "ID": "BRICK"
+  },
+  {
+    "niceName": "Bricks",
+    "ID": "BRICKS"
+  },
+  {
+    "niceName": "Brick Slab",
+    "ID": "BRICK_SLAB"
+  },
+  {
+    "niceName": "Brick Stairs",
+    "ID": "BRICK_STAIRS"
+  },
+  {
+    "niceName": "Brick Wall",
+    "ID": "BRICK_WALL"
+  },
+  {
+    "niceName": "Brown Banner",
+    "ID": "BROWN_BANNER"
+  },
+  {
+    "niceName": "Brown Bed",
+    "ID": "BROWN_BED"
+  },
+  {
+    "niceName": "Brown Carpet",
+    "ID": "BROWN_CARPET"
+  },
+  {
+    "niceName": "Brown Concrete",
+    "ID": "BROWN_CONCRETE"
+  },
+  {
+    "niceName": "Brown Concrete Powder",
+    "ID": "BROWN_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Brown Dye",
+    "ID": "BROWN_DYE"
+  },
+  {
+    "niceName": "Brown Glazed Terracotta",
+    "ID": "BROWN_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Brown Mushroom",
+    "ID": "BROWN_MUSHROOM"
+  },
+  {
+    "niceName": "Brown Mushroom Block",
+    "ID": "BROWN_MUSHROOM_BLOCK"
+  },
+  {
+    "niceName": "Brown Shulker Box",
+    "ID": "BROWN_SHULKER_BOX"
+  },
+  {
+    "niceName": "Brown Stained Glass",
+    "ID": "BROWN_STAINED_GLASS"
+  },
+  {
+    "niceName": "Brown Stained Glass Pane",
+    "ID": "BROWN_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Brown Terracotta",
+    "ID": "BROWN_TERRACOTTA"
+  },
+  {
+    "niceName": "Brown Wall Banner",
+    "ID": "BROWN_WALL_BANNER"
+  },
+  {
+    "niceName": "Brown Wool",
+    "ID": "BROWN_WOOL"
+  },
+  {
+    "niceName": "Bubble Column",
+    "ID": "BUBBLE_COLUMN"
+  },
+  {
+    "niceName": "Bubble Coral",
+    "ID": "BUBBLE_CORAL"
+  },
+  {
+    "niceName": "Bubble Coral Block",
+    "ID": "BUBBLE_CORAL_BLOCK"
+  },
+  {
+    "niceName": "Bubble Coral Fan",
+    "ID": "BUBBLE_CORAL_FAN"
+  },
+  {
+    "niceName": "Bubble Coral Wall Fan",
+    "ID": "BUBBLE_CORAL_WALL_FAN"
+  },
+  {
+    "niceName": "Bucket",
+    "ID": "BUCKET"
+  },
+  {
+    "niceName": "Cactus",
+    "ID": "CACTUS"
+  },
+  {
+    "niceName": "Cake",
+    "ID": "CAKE"
+  },
+  {
+    "niceName": "Campfire",
+    "ID": "CAMPFIRE"
+  },
+  {
+    "niceName": "Carrot",
+    "ID": "CARROT"
+  },
+  {
+    "niceName": "Carrots",
+    "ID": "CARROTS"
+  },
+  {
+    "niceName": "Carrot On A Stick",
+    "ID": "CARROT_ON_A_STICK"
+  },
+  {
+    "niceName": "Cartography Table",
+    "ID": "CARTOGRAPHY_TABLE"
+  },
+  {
+    "niceName": "Carved Pumpkin",
+    "ID": "CARVED_PUMPKIN"
+  },
+  {
+    "niceName": "Cat Spawn Egg",
+    "ID": "CAT_SPAWN_EGG"
+  },
+  {
+    "niceName": "Cauldron",
+    "ID": "CAULDRON"
+  },
+  {
+    "niceName": "Cave Air",
+    "ID": "CAVE_AIR"
+  },
+  {
+    "niceName": "Cave Spider Spawn Egg",
+    "ID": "CAVE_SPIDER_SPAWN_EGG"
+  },
+  {
+    "niceName": "Chain",
+    "ID": "CHAIN"
+  },
+  {
+    "niceName": "Chainmail Boots",
+    "ID": "CHAINMAIL_BOOTS"
+  },
+  {
+    "niceName": "Chainmail Chestplate",
+    "ID": "CHAINMAIL_CHESTPLATE"
+  },
+  {
+    "niceName": "Chainmail Helmet",
+    "ID": "CHAINMAIL_HELMET"
+  },
+  {
+    "niceName": "Chainmail Leggings",
+    "ID": "CHAINMAIL_LEGGINGS"
+  },
+  {
+    "niceName": "Chain Command Block",
+    "ID": "CHAIN_COMMAND_BLOCK"
+  },
+  {
+    "niceName": "Charcoal",
+    "ID": "CHARCOAL"
+  },
+  {
+    "niceName": "Chest",
+    "ID": "CHEST"
+  },
+  {
+    "niceName": "Chest Minecart",
+    "ID": "CHEST_MINECART"
+  },
+  {
+    "niceName": "Chicken",
+    "ID": "CHICKEN"
+  },
+  {
+    "niceName": "Chicken Spawn Egg",
+    "ID": "CHICKEN_SPAWN_EGG"
+  },
+  {
+    "niceName": "Chipped Anvil",
+    "ID": "CHIPPED_ANVIL"
+  },
+  {
+    "niceName": "Chiseled Nether Bricks",
+    "ID": "CHISELED_NETHER_BRICKS"
+  },
+  {
+    "niceName": "Chiseled Polished Blackstone",
+    "ID": "CHISELED_POLISHED_BLACKSTONE"
+  },
+  {
+    "niceName": "Chiseled Quartz Block",
+    "ID": "CHISELED_QUARTZ_BLOCK"
+  },
+  {
+    "niceName": "Chiseled Red Sandstone",
+    "ID": "CHISELED_RED_SANDSTONE"
+  },
+  {
+    "niceName": "Chiseled Sandstone",
+    "ID": "CHISELED_SANDSTONE"
+  },
+  {
+    "niceName": "Chiseled Stone Bricks",
+    "ID": "CHISELED_STONE_BRICKS"
+  },
+  {
+    "niceName": "Chorus Flower",
+    "ID": "CHORUS_FLOWER"
+  },
+  {
+    "niceName": "Chorus Fruit",
+    "ID": "CHORUS_FRUIT"
+  },
+  {
+    "niceName": "Chorus Plant",
+    "ID": "CHORUS_PLANT"
+  },
+  {
+    "niceName": "Clay",
+    "ID": "CLAY"
+  },
+  {
+    "niceName": "Clay Ball",
+    "ID": "CLAY_BALL"
+  },
+  {
+    "niceName": "Clock",
+    "ID": "CLOCK"
+  },
+  {
+    "niceName": "Coal",
+    "ID": "COAL"
+  },
+  {
+    "niceName": "Coal Block",
+    "ID": "COAL_BLOCK"
+  },
+  {
+    "niceName": "Coal Ore",
+    "ID": "COAL_ORE"
+  },
+  {
+    "niceName": "Coarse Dirt",
+    "ID": "COARSE_DIRT"
+  },
+  {
+    "niceName": "Cobblestone",
+    "ID": "COBBLESTONE"
+  },
+  {
+    "niceName": "Cobblestone Slab",
+    "ID": "COBBLESTONE_SLAB"
+  },
+  {
+    "niceName": "Cobblestone Stairs",
+    "ID": "COBBLESTONE_STAIRS"
+  },
+  {
+    "niceName": "Cobblestone Wall",
+    "ID": "COBBLESTONE_WALL"
+  },
+  {
+    "niceName": "Cobweb",
+    "ID": "COBWEB"
+  },
+  {
+    "niceName": "Cocoa",
+    "ID": "COCOA"
+  },
+  {
+    "niceName": "Cocoa Beans",
+    "ID": "COCOA_BEANS"
+  },
+  {
+    "niceName": "Cod",
+    "ID": "COD"
+  },
+  {
+    "niceName": "Cod Bucket",
+    "ID": "COD_BUCKET"
+  },
+  {
+    "niceName": "Cod Spawn Egg",
+    "ID": "COD_SPAWN_EGG"
+  },
+  {
+    "niceName": "Command Block",
+    "ID": "COMMAND_BLOCK"
+  },
+  {
+    "niceName": "Command Block Minecart",
+    "ID": "COMMAND_BLOCK_MINECART"
+  },
+  {
+    "niceName": "Comparator",
+    "ID": "COMPARATOR"
+  },
+  {
+    "niceName": "Compass",
+    "ID": "COMPASS"
+  },
+  {
+    "niceName": "Composter",
+    "ID": "COMPOSTER"
+  },
+  {
+    "niceName": "Conduit",
+    "ID": "CONDUIT"
+  },
+  {
+    "niceName": "Cooked Beef",
+    "ID": "COOKED_BEEF"
+  },
+  {
+    "niceName": "Cooked Chicken",
+    "ID": "COOKED_CHICKEN"
+  },
+  {
+    "niceName": "Cooked Cod",
+    "ID": "COOKED_COD"
+  },
+  {
+    "niceName": "Cooked Mutton",
+    "ID": "COOKED_MUTTON"
+  },
+  {
+    "niceName": "Cooked Porkchop",
+    "ID": "COOKED_PORKCHOP"
+  },
+  {
+    "niceName": "Cooked Rabbit",
+    "ID": "COOKED_RABBIT"
+  },
+  {
+    "niceName": "Cooked Salmon",
+    "ID": "COOKED_SALMON"
+  },
+  {
+    "niceName": "Cookie",
+    "ID": "COOKIE"
+  },
+  {
+    "niceName": "Cornflower",
+    "ID": "CORNFLOWER"
+  },
+  {
+    "niceName": "Cow Spawn Egg",
+    "ID": "COW_SPAWN_EGG"
+  },
+  {
+    "niceName": "Cracked Nether Bricks",
+    "ID": "CRACKED_NETHER_BRICKS"
+  },
+  {
+    "niceName": "Cracked Polished Blackstone Bricks",
+    "ID": "CRACKED_POLISHED_BLACKSTONE_BRICKS"
+  },
+  {
+    "niceName": "Cracked Stone Bricks",
+    "ID": "CRACKED_STONE_BRICKS"
+  },
+  {
+    "niceName": "Crafting Table",
+    "ID": "CRAFTING_TABLE"
+  },
+  {
+    "niceName": "Creeper Banner Pattern",
+    "ID": "CREEPER_BANNER_PATTERN"
+  },
+  {
+    "niceName": "Creeper Head",
+    "ID": "CREEPER_HEAD"
+  },
+  {
+    "niceName": "Creeper Spawn Egg",
+    "ID": "CREEPER_SPAWN_EGG"
+  },
+  {
+    "niceName": "Creeper Wall Head",
+    "ID": "CREEPER_WALL_HEAD"
+  },
+  {
+    "niceName": "Crimson Button",
+    "ID": "CRIMSON_BUTTON"
+  },
+  {
+    "niceName": "Crimson Door",
+    "ID": "CRIMSON_DOOR"
+  },
+  {
+    "niceName": "Crimson Fence",
+    "ID": "CRIMSON_FENCE"
+  },
+  {
+    "niceName": "Crimson Fence Gate",
+    "ID": "CRIMSON_FENCE_GATE"
+  },
+  {
+    "niceName": "Crimson Fungus",
+    "ID": "CRIMSON_FUNGUS"
+  },
+  {
+    "niceName": "Crimson Hyphae",
+    "ID": "CRIMSON_HYPHAE"
+  },
+  {
+    "niceName": "Crimson Nylium",
+    "ID": "CRIMSON_NYLIUM"
+  },
+  {
+    "niceName": "Crimson Planks",
+    "ID": "CRIMSON_PLANKS"
+  },
+  {
+    "niceName": "Crimson Pressure Plate",
+    "ID": "CRIMSON_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Crimson Roots",
+    "ID": "CRIMSON_ROOTS"
+  },
+  {
+    "niceName": "Crimson Sign",
+    "ID": "CRIMSON_SIGN"
+  },
+  {
+    "niceName": "Crimson Slab",
+    "ID": "CRIMSON_SLAB"
+  },
+  {
+    "niceName": "Crimson Stairs",
+    "ID": "CRIMSON_STAIRS"
+  },
+  {
+    "niceName": "Crimson Stem",
+    "ID": "CRIMSON_STEM"
+  },
+  {
+    "niceName": "Crimson Trapdoor",
+    "ID": "CRIMSON_TRAPDOOR"
+  },
+  {
+    "niceName": "Crimson Wall Sign",
+    "ID": "CRIMSON_WALL_SIGN"
+  },
+  {
+    "niceName": "Crossbow",
+    "ID": "CROSSBOW"
+  },
+  {
+    "niceName": "Crying Obsidian",
+    "ID": "CRYING_OBSIDIAN"
+  },
+  {
+    "niceName": "Cut Red Sandstone",
+    "ID": "CUT_RED_SANDSTONE"
+  },
+  {
+    "niceName": "Cut Red Sandstone Slab",
+    "ID": "CUT_RED_SANDSTONE_SLAB"
+  },
+  {
+    "niceName": "Cut Sandstone",
+    "ID": "CUT_SANDSTONE"
+  },
+  {
+    "niceName": "Cut Sandstone Slab",
+    "ID": "CUT_SANDSTONE_SLAB"
+  },
+  {
+    "niceName": "Cyan Banner",
+    "ID": "CYAN_BANNER"
+  },
+  {
+    "niceName": "Cyan Bed",
+    "ID": "CYAN_BED"
+  },
+  {
+    "niceName": "Cyan Carpet",
+    "ID": "CYAN_CARPET"
+  },
+  {
+    "niceName": "Cyan Concrete",
+    "ID": "CYAN_CONCRETE"
+  },
+  {
+    "niceName": "Cyan Concrete Powder",
+    "ID": "CYAN_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Cyan Dye",
+    "ID": "CYAN_DYE"
+  },
+  {
+    "niceName": "Cyan Glazed Terracotta",
+    "ID": "CYAN_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Cyan Shulker Box",
+    "ID": "CYAN_SHULKER_BOX"
+  },
+  {
+    "niceName": "Cyan Stained Glass",
+    "ID": "CYAN_STAINED_GLASS"
+  },
+  {
+    "niceName": "Cyan Stained Glass Pane",
+    "ID": "CYAN_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Cyan Terracotta",
+    "ID": "CYAN_TERRACOTTA"
+  },
+  {
+    "niceName": "Cyan Wall Banner",
+    "ID": "CYAN_WALL_BANNER"
+  },
+  {
+    "niceName": "Cyan Wool",
+    "ID": "CYAN_WOOL"
+  },
+  {
+    "niceName": "Damaged Anvil",
+    "ID": "DAMAGED_ANVIL"
+  },
+  {
+    "niceName": "Dandelion",
+    "ID": "DANDELION"
+  },
+  {
+    "niceName": "Dark Oak Boat",
+    "ID": "DARK_OAK_BOAT"
+  },
+  {
+    "niceName": "Dark Oak Button",
+    "ID": "DARK_OAK_BUTTON"
+  },
+  {
+    "niceName": "Dark Oak Door",
+    "ID": "DARK_OAK_DOOR"
+  },
+  {
+    "niceName": "Dark Oak Fence",
+    "ID": "DARK_OAK_FENCE"
+  },
+  {
+    "niceName": "Dark Oak Fence Gate",
+    "ID": "DARK_OAK_FENCE_GATE"
+  },
+  {
+    "niceName": "Dark Oak Leaves",
+    "ID": "DARK_OAK_LEAVES"
+  },
+  {
+    "niceName": "Dark Oak Log",
+    "ID": "DARK_OAK_LOG"
+  },
+  {
+    "niceName": "Dark Oak Planks",
+    "ID": "DARK_OAK_PLANKS"
+  },
+  {
+    "niceName": "Dark Oak Pressure Plate",
+    "ID": "DARK_OAK_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Dark Oak Sapling",
+    "ID": "DARK_OAK_SAPLING"
+  },
+  {
+    "niceName": "Dark Oak Sign",
+    "ID": "DARK_OAK_SIGN"
+  },
+  {
+    "niceName": "Dark Oak Slab",
+    "ID": "DARK_OAK_SLAB"
+  },
+  {
+    "niceName": "Dark Oak Stairs",
+    "ID": "DARK_OAK_STAIRS"
+  },
+  {
+    "niceName": "Dark Oak Trapdoor",
+    "ID": "DARK_OAK_TRAPDOOR"
+  },
+  {
+    "niceName": "Dark Oak Wall Sign",
+    "ID": "DARK_OAK_WALL_SIGN"
+  },
+  {
+    "niceName": "Dark Oak Wood",
+    "ID": "DARK_OAK_WOOD"
+  },
+  {
+    "niceName": "Dark Prismarine",
+    "ID": "DARK_PRISMARINE"
+  },
+  {
+    "niceName": "Dark Prismarine Slab",
+    "ID": "DARK_PRISMARINE_SLAB"
+  },
+  {
+    "niceName": "Dark Prismarine Stairs",
+    "ID": "DARK_PRISMARINE_STAIRS"
+  },
+  {
+    "niceName": "Daylight Detector",
+    "ID": "DAYLIGHT_DETECTOR"
+  },
+  {
+    "niceName": "Dead Brain Coral",
+    "ID": "DEAD_BRAIN_CORAL"
+  },
+  {
+    "niceName": "Dead Brain Coral Block",
+    "ID": "DEAD_BRAIN_CORAL_BLOCK"
+  },
+  {
+    "niceName": "Dead Brain Coral Fan",
+    "ID": "DEAD_BRAIN_CORAL_FAN"
+  },
+  {
+    "niceName": "Dead Brain Coral Wall Fan",
+    "ID": "DEAD_BRAIN_CORAL_WALL_FAN"
+  },
+  {
+    "niceName": "Dead Bubble Coral",
+    "ID": "DEAD_BUBBLE_CORAL"
+  },
+  {
+    "niceName": "Dead Bubble Coral Block",
+    "ID": "DEAD_BUBBLE_CORAL_BLOCK"
+  },
+  {
+    "niceName": "Dead Bubble Coral Fan",
+    "ID": "DEAD_BUBBLE_CORAL_FAN"
+  },
+  {
+    "niceName": "Dead Bubble Coral Wall Fan",
+    "ID": "DEAD_BUBBLE_CORAL_WALL_FAN"
+  },
+  {
+    "niceName": "Dead Bush",
+    "ID": "DEAD_BUSH"
+  },
+  {
+    "niceName": "Dead Fire Coral",
+    "ID": "DEAD_FIRE_CORAL"
+  },
+  {
+    "niceName": "Dead Fire Coral Block",
+    "ID": "DEAD_FIRE_CORAL_BLOCK"
+  },
+  {
+    "niceName": "Dead Fire Coral Fan",
+    "ID": "DEAD_FIRE_CORAL_FAN"
+  },
+  {
+    "niceName": "Dead Fire Coral Wall Fan",
+    "ID": "DEAD_FIRE_CORAL_WALL_FAN"
+  },
+  {
+    "niceName": "Dead Horn Coral",
+    "ID": "DEAD_HORN_CORAL"
+  },
+  {
+    "niceName": "Dead Horn Coral Block",
+    "ID": "DEAD_HORN_CORAL_BLOCK"
+  },
+  {
+    "niceName": "Dead Horn Coral Fan",
+    "ID": "DEAD_HORN_CORAL_FAN"
+  },
+  {
+    "niceName": "Dead Horn Coral Wall Fan",
+    "ID": "DEAD_HORN_CORAL_WALL_FAN"
+  },
+  {
+    "niceName": "Dead Tube Coral",
+    "ID": "DEAD_TUBE_CORAL"
+  },
+  {
+    "niceName": "Dead Tube Coral Block",
+    "ID": "DEAD_TUBE_CORAL_BLOCK"
+  },
+  {
+    "niceName": "Dead Tube Coral Fan",
+    "ID": "DEAD_TUBE_CORAL_FAN"
+  },
+  {
+    "niceName": "Dead Tube Coral Wall Fan",
+    "ID": "DEAD_TUBE_CORAL_WALL_FAN"
+  },
+  {
+    "niceName": "Debug Stick",
+    "ID": "DEBUG_STICK"
+  },
+  {
+    "niceName": "Detector Rail",
+    "ID": "DETECTOR_RAIL"
+  },
+  {
+    "niceName": "Diamond",
+    "ID": "DIAMOND"
+  },
+  {
+    "niceName": "Diamond Axe",
+    "ID": "DIAMOND_AXE"
+  },
+  {
+    "niceName": "Diamond Block",
+    "ID": "DIAMOND_BLOCK"
+  },
+  {
+    "niceName": "Diamond Boots",
+    "ID": "DIAMOND_BOOTS"
+  },
+  {
+    "niceName": "Diamond Chestplate",
+    "ID": "DIAMOND_CHESTPLATE"
+  },
+  {
+    "niceName": "Diamond Helmet",
+    "ID": "DIAMOND_HELMET"
+  },
+  {
+    "niceName": "Diamond Hoe",
+    "ID": "DIAMOND_HOE"
+  },
+  {
+    "niceName": "Diamond Horse Armor",
+    "ID": "DIAMOND_HORSE_ARMOR"
+  },
+  {
+    "niceName": "Diamond Leggings",
+    "ID": "DIAMOND_LEGGINGS"
+  },
+  {
+    "niceName": "Diamond Ore",
+    "ID": "DIAMOND_ORE"
+  },
+  {
+    "niceName": "Diamond Pickaxe",
+    "ID": "DIAMOND_PICKAXE"
+  },
+  {
+    "niceName": "Diamond Shovel",
+    "ID": "DIAMOND_SHOVEL"
+  },
+  {
+    "niceName": "Diamond Sword",
+    "ID": "DIAMOND_SWORD"
+  },
+  {
+    "niceName": "Diorite",
+    "ID": "DIORITE"
+  },
+  {
+    "niceName": "Diorite Slab",
+    "ID": "DIORITE_SLAB"
+  },
+  {
+    "niceName": "Diorite Stairs",
+    "ID": "DIORITE_STAIRS"
+  },
+  {
+    "niceName": "Diorite Wall",
+    "ID": "DIORITE_WALL"
+  },
+  {
+    "niceName": "Dirt",
+    "ID": "DIRT"
+  },
+  {
+    "niceName": "Dispenser",
+    "ID": "DISPENSER"
+  },
+  {
+    "niceName": "Dolphin Spawn Egg",
+    "ID": "DOLPHIN_SPAWN_EGG"
+  },
+  {
+    "niceName": "Donkey Spawn Egg",
+    "ID": "DONKEY_SPAWN_EGG"
+  },
+  {
+    "niceName": "Dragon Breath",
+    "ID": "DRAGON_BREATH"
+  },
+  {
+    "niceName": "Dragon Egg",
+    "ID": "DRAGON_EGG"
+  },
+  {
+    "niceName": "Dragon Head",
+    "ID": "DRAGON_HEAD"
+  },
+  {
+    "niceName": "Dragon Wall Head",
+    "ID": "DRAGON_WALL_HEAD"
+  },
+  {
+    "niceName": "Dried Kelp",
+    "ID": "DRIED_KELP"
+  },
+  {
+    "niceName": "Dried Kelp Block",
+    "ID": "DRIED_KELP_BLOCK"
+  },
+  {
+    "niceName": "Dropper",
+    "ID": "DROPPER"
+  },
+  {
+    "niceName": "Drowned Spawn Egg",
+    "ID": "DROWNED_SPAWN_EGG"
+  },
+  {
+    "niceName": "Egg",
+    "ID": "EGG"
+  },
+  {
+    "niceName": "Elder Guardian Spawn Egg",
+    "ID": "ELDER_GUARDIAN_SPAWN_EGG"
+  },
+  {
+    "niceName": "Elytra",
+    "ID": "ELYTRA"
+  },
+  {
+    "niceName": "Emerald",
+    "ID": "EMERALD"
+  },
+  {
+    "niceName": "Emerald Block",
+    "ID": "EMERALD_BLOCK"
+  },
+  {
+    "niceName": "Emerald Ore",
+    "ID": "EMERALD_ORE"
+  },
+  {
+    "niceName": "Enchanted Book",
+    "ID": "ENCHANTED_BOOK"
+  },
+  {
+    "niceName": "Enchanted Golden Apple",
+    "ID": "ENCHANTED_GOLDEN_APPLE"
+  },
+  {
+    "niceName": "Enchanting Table",
+    "ID": "ENCHANTING_TABLE"
+  },
+  {
+    "niceName": "Enderman Spawn Egg",
+    "ID": "ENDERMAN_SPAWN_EGG"
+  },
+  {
+    "niceName": "Endermite Spawn Egg",
+    "ID": "ENDERMITE_SPAWN_EGG"
+  },
+  {
+    "niceName": "Ender Chest",
+    "ID": "ENDER_CHEST"
+  },
+  {
+    "niceName": "Ender Eye",
+    "ID": "ENDER_EYE"
+  },
+  {
+    "niceName": "Ender Pearl",
+    "ID": "ENDER_PEARL"
+  },
+  {
+    "niceName": "End Crystal",
+    "ID": "END_CRYSTAL"
+  },
+  {
+    "niceName": "End Gateway",
+    "ID": "END_GATEWAY"
+  },
+  {
+    "niceName": "End Portal",
+    "ID": "END_PORTAL"
+  },
+  {
+    "niceName": "End Portal Frame",
+    "ID": "END_PORTAL_FRAME"
+  },
+  {
+    "niceName": "End Rod",
+    "ID": "END_ROD"
+  },
+  {
+    "niceName": "End Stone",
+    "ID": "END_STONE"
+  },
+  {
+    "niceName": "End Stone Bricks",
+    "ID": "END_STONE_BRICKS"
+  },
+  {
+    "niceName": "End Stone Brick Slab",
+    "ID": "END_STONE_BRICK_SLAB"
+  },
+  {
+    "niceName": "End Stone Brick Stairs",
+    "ID": "END_STONE_BRICK_STAIRS"
+  },
+  {
+    "niceName": "End Stone Brick Wall",
+    "ID": "END_STONE_BRICK_WALL"
+  },
+  {
+    "niceName": "Evoker Spawn Egg",
+    "ID": "EVOKER_SPAWN_EGG"
+  },
+  {
+    "niceName": "Experience Bottle",
+    "ID": "EXPERIENCE_BOTTLE"
+  },
+  {
+    "niceName": "Farmland",
+    "ID": "FARMLAND"
+  },
+  {
+    "niceName": "Feather",
+    "ID": "FEATHER"
+  },
+  {
+    "niceName": "Fermented Spider Eye",
+    "ID": "FERMENTED_SPIDER_EYE"
+  },
+  {
+    "niceName": "Fern",
+    "ID": "FERN"
+  },
+  {
+    "niceName": "Filled Map",
+    "ID": "FILLED_MAP"
+  },
+  {
+    "niceName": "Fire",
+    "ID": "FIRE"
+  },
+  {
+    "niceName": "Firework Rocket",
+    "ID": "FIREWORK_ROCKET"
+  },
+  {
+    "niceName": "Firework Star",
+    "ID": "FIREWORK_STAR"
+  },
+  {
+    "niceName": "Fire Charge",
+    "ID": "FIRE_CHARGE"
+  },
+  {
+    "niceName": "Fire Coral",
+    "ID": "FIRE_CORAL"
+  },
+  {
+    "niceName": "Fire Coral Block",
+    "ID": "FIRE_CORAL_BLOCK"
+  },
+  {
+    "niceName": "Fire Coral Fan",
+    "ID": "FIRE_CORAL_FAN"
+  },
+  {
+    "niceName": "Fire Coral Wall Fan",
+    "ID": "FIRE_CORAL_WALL_FAN"
+  },
+  {
+    "niceName": "Fishing Rod",
+    "ID": "FISHING_ROD"
+  },
+  {
+    "niceName": "Fletching Table",
+    "ID": "FLETCHING_TABLE"
+  },
+  {
+    "niceName": "Flint",
+    "ID": "FLINT"
+  },
+  {
+    "niceName": "Flint And Steel",
+    "ID": "FLINT_AND_STEEL"
+  },
+  {
+    "niceName": "Flower Banner Pattern",
+    "ID": "FLOWER_BANNER_PATTERN"
+  },
+  {
+    "niceName": "Flower Pot",
+    "ID": "FLOWER_POT"
+  },
+  {
+    "niceName": "Fox Spawn Egg",
+    "ID": "FOX_SPAWN_EGG"
+  },
+  {
+    "niceName": "Frosted Ice",
+    "ID": "FROSTED_ICE"
+  },
+  {
+    "niceName": "Furnace",
+    "ID": "FURNACE"
+  },
+  {
+    "niceName": "Furnace Minecart",
+    "ID": "FURNACE_MINECART"
+  },
+  {
+    "niceName": "Ghast Spawn Egg",
+    "ID": "GHAST_SPAWN_EGG"
+  },
+  {
+    "niceName": "Ghast Tear",
+    "ID": "GHAST_TEAR"
+  },
+  {
+    "niceName": "Gilded Blackstone",
+    "ID": "GILDED_BLACKSTONE"
+  },
+  {
+    "niceName": "Glass",
+    "ID": "GLASS"
+  },
+  {
+    "niceName": "Glass Bottle",
+    "ID": "GLASS_BOTTLE"
+  },
+  {
+    "niceName": "Glass Pane",
+    "ID": "GLASS_PANE"
+  },
+  {
+    "niceName": "Glistering Melon Slice",
+    "ID": "GLISTERING_MELON_SLICE"
+  },
+  {
+    "niceName": "Globe Banner Pattern",
+    "ID": "GLOBE_BANNER_PATTERN"
+  },
+  {
+    "niceName": "Glowstone",
+    "ID": "GLOWSTONE"
+  },
+  {
+    "niceName": "Glowstone Dust",
+    "ID": "GLOWSTONE_DUST"
+  },
+  {
+    "niceName": "Golden Apple",
+    "ID": "GOLDEN_APPLE"
+  },
+  {
+    "niceName": "Golden Axe",
+    "ID": "GOLDEN_AXE"
+  },
+  {
+    "niceName": "Golden Boots",
+    "ID": "GOLDEN_BOOTS"
+  },
+  {
+    "niceName": "Golden Carrot",
+    "ID": "GOLDEN_CARROT"
+  },
+  {
+    "niceName": "Golden Chestplate",
+    "ID": "GOLDEN_CHESTPLATE"
+  },
+  {
+    "niceName": "Golden Helmet",
+    "ID": "GOLDEN_HELMET"
+  },
+  {
+    "niceName": "Golden Hoe",
+    "ID": "GOLDEN_HOE"
+  },
+  {
+    "niceName": "Golden Horse Armor",
+    "ID": "GOLDEN_HORSE_ARMOR"
+  },
+  {
+    "niceName": "Golden Leggings",
+    "ID": "GOLDEN_LEGGINGS"
+  },
+  {
+    "niceName": "Golden Pickaxe",
+    "ID": "GOLDEN_PICKAXE"
+  },
+  {
+    "niceName": "Golden Shovel",
+    "ID": "GOLDEN_SHOVEL"
+  },
+  {
+    "niceName": "Golden Sword",
+    "ID": "GOLDEN_SWORD"
+  },
+  {
+    "niceName": "Gold Block",
+    "ID": "GOLD_BLOCK"
+  },
+  {
+    "niceName": "Gold Ingot",
+    "ID": "GOLD_INGOT"
+  },
+  {
+    "niceName": "Gold Nugget",
+    "ID": "GOLD_NUGGET"
+  },
+  {
+    "niceName": "Gold Ore",
+    "ID": "GOLD_ORE"
+  },
+  {
+    "niceName": "Granite",
+    "ID": "GRANITE"
+  },
+  {
+    "niceName": "Granite Slab",
+    "ID": "GRANITE_SLAB"
+  },
+  {
+    "niceName": "Granite Stairs",
+    "ID": "GRANITE_STAIRS"
+  },
+  {
+    "niceName": "Granite Wall",
+    "ID": "GRANITE_WALL"
+  },
+  {
+    "niceName": "Grass",
+    "ID": "GRASS"
+  },
+  {
+    "niceName": "Grass Block",
+    "ID": "GRASS_BLOCK"
+  },
+  {
+    "niceName": "Grass Path",
+    "ID": "GRASS_PATH"
+  },
+  {
+    "niceName": "Gravel",
+    "ID": "GRAVEL"
+  },
+  {
+    "niceName": "Gray Banner",
+    "ID": "GRAY_BANNER"
+  },
+  {
+    "niceName": "Gray Bed",
+    "ID": "GRAY_BED"
+  },
+  {
+    "niceName": "Gray Carpet",
+    "ID": "GRAY_CARPET"
+  },
+  {
+    "niceName": "Gray Concrete",
+    "ID": "GRAY_CONCRETE"
+  },
+  {
+    "niceName": "Gray Concrete Powder",
+    "ID": "GRAY_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Gray Dye",
+    "ID": "GRAY_DYE"
+  },
+  {
+    "niceName": "Gray Glazed Terracotta",
+    "ID": "GRAY_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Gray Shulker Box",
+    "ID": "GRAY_SHULKER_BOX"
+  },
+  {
+    "niceName": "Gray Stained Glass",
+    "ID": "GRAY_STAINED_GLASS"
+  },
+  {
+    "niceName": "Gray Stained Glass Pane",
+    "ID": "GRAY_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Gray Terracotta",
+    "ID": "GRAY_TERRACOTTA"
+  },
+  {
+    "niceName": "Gray Wall Banner",
+    "ID": "GRAY_WALL_BANNER"
+  },
+  {
+    "niceName": "Gray Wool",
+    "ID": "GRAY_WOOL"
+  },
+  {
+    "niceName": "Green Banner",
+    "ID": "GREEN_BANNER"
+  },
+  {
+    "niceName": "Green Bed",
+    "ID": "GREEN_BED"
+  },
+  {
+    "niceName": "Green Carpet",
+    "ID": "GREEN_CARPET"
+  },
+  {
+    "niceName": "Green Concrete",
+    "ID": "GREEN_CONCRETE"
+  },
+  {
+    "niceName": "Green Concrete Powder",
+    "ID": "GREEN_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Green Dye",
+    "ID": "GREEN_DYE"
+  },
+  {
+    "niceName": "Green Glazed Terracotta",
+    "ID": "GREEN_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Green Shulker Box",
+    "ID": "GREEN_SHULKER_BOX"
+  },
+  {
+    "niceName": "Green Stained Glass",
+    "ID": "GREEN_STAINED_GLASS"
+  },
+  {
+    "niceName": "Green Stained Glass Pane",
+    "ID": "GREEN_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Green Terracotta",
+    "ID": "GREEN_TERRACOTTA"
+  },
+  {
+    "niceName": "Green Wall Banner",
+    "ID": "GREEN_WALL_BANNER"
+  },
+  {
+    "niceName": "Green Wool",
+    "ID": "GREEN_WOOL"
+  },
+  {
+    "niceName": "Grindstone",
+    "ID": "GRINDSTONE"
+  },
+  {
+    "niceName": "Guardian Spawn Egg",
+    "ID": "GUARDIAN_SPAWN_EGG"
+  },
+  {
+    "niceName": "Gunpowder",
+    "ID": "GUNPOWDER"
+  },
+  {
+    "niceName": "Hay Block",
+    "ID": "HAY_BLOCK"
+  },
+  {
+    "niceName": "Heart Of The Sea",
+    "ID": "HEART_OF_THE_SEA"
+  },
+  {
+    "niceName": "Heavy Weighted Pressure Plate",
+    "ID": "HEAVY_WEIGHTED_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Hoglin Spawn Egg",
+    "ID": "HOGLIN_SPAWN_EGG"
+  },
+  {
+    "niceName": "Honeycomb",
+    "ID": "HONEYCOMB"
+  },
+  {
+    "niceName": "Honeycomb Block",
+    "ID": "HONEYCOMB_BLOCK"
+  },
+  {
+    "niceName": "Honey Block",
+    "ID": "HONEY_BLOCK"
+  },
+  {
+    "niceName": "Honey Bottle",
+    "ID": "HONEY_BOTTLE"
+  },
+  {
+    "niceName": "Hopper",
+    "ID": "HOPPER"
+  },
+  {
+    "niceName": "Hopper Minecart",
+    "ID": "HOPPER_MINECART"
+  },
+  {
+    "niceName": "Horn Coral",
+    "ID": "HORN_CORAL"
+  },
+  {
+    "niceName": "Horn Coral Block",
+    "ID": "HORN_CORAL_BLOCK"
+  },
+  {
+    "niceName": "Horn Coral Fan",
+    "ID": "HORN_CORAL_FAN"
+  },
+  {
+    "niceName": "Horn Coral Wall Fan",
+    "ID": "HORN_CORAL_WALL_FAN"
+  },
+  {
+    "niceName": "Horse Spawn Egg",
+    "ID": "HORSE_SPAWN_EGG"
+  },
+  {
+    "niceName": "Husk Spawn Egg",
+    "ID": "HUSK_SPAWN_EGG"
+  },
+  {
+    "niceName": "Ice",
+    "ID": "ICE"
+  },
+  {
+    "niceName": "Infested Chiseled Stone Bricks",
+    "ID": "INFESTED_CHISELED_STONE_BRICKS"
+  },
+  {
+    "niceName": "Infested Cobblestone",
+    "ID": "INFESTED_COBBLESTONE"
+  },
+  {
+    "niceName": "Infested Cracked Stone Bricks",
+    "ID": "INFESTED_CRACKED_STONE_BRICKS"
+  },
+  {
+    "niceName": "Infested Mossy Stone Bricks",
+    "ID": "INFESTED_MOSSY_STONE_BRICKS"
+  },
+  {
+    "niceName": "Infested Stone",
+    "ID": "INFESTED_STONE"
+  },
+  {
+    "niceName": "Infested Stone Bricks",
+    "ID": "INFESTED_STONE_BRICKS"
+  },
+  {
+    "niceName": "Ink Sac",
+    "ID": "INK_SAC"
+  },
+  {
+    "niceName": "Iron Axe",
+    "ID": "IRON_AXE"
+  },
+  {
+    "niceName": "Iron Bars",
+    "ID": "IRON_BARS"
+  },
+  {
+    "niceName": "Iron Block",
+    "ID": "IRON_BLOCK"
+  },
+  {
+    "niceName": "Iron Boots",
+    "ID": "IRON_BOOTS"
+  },
+  {
+    "niceName": "Iron Chestplate",
+    "ID": "IRON_CHESTPLATE"
+  },
+  {
+    "niceName": "Iron Door",
+    "ID": "IRON_DOOR"
+  },
+  {
+    "niceName": "Iron Helmet",
+    "ID": "IRON_HELMET"
+  },
+  {
+    "niceName": "Iron Hoe",
+    "ID": "IRON_HOE"
+  },
+  {
+    "niceName": "Iron Horse Armor",
+    "ID": "IRON_HORSE_ARMOR"
+  },
+  {
+    "niceName": "Iron Ingot",
+    "ID": "IRON_INGOT"
+  },
+  {
+    "niceName": "Iron Leggings",
+    "ID": "IRON_LEGGINGS"
+  },
+  {
+    "niceName": "Iron Nugget",
+    "ID": "IRON_NUGGET"
+  },
+  {
+    "niceName": "Iron Ore",
+    "ID": "IRON_ORE"
+  },
+  {
+    "niceName": "Iron Pickaxe",
+    "ID": "IRON_PICKAXE"
+  },
+  {
+    "niceName": "Iron Shovel",
+    "ID": "IRON_SHOVEL"
+  },
+  {
+    "niceName": "Iron Sword",
+    "ID": "IRON_SWORD"
+  },
+  {
+    "niceName": "Iron Trapdoor",
+    "ID": "IRON_TRAPDOOR"
+  },
+  {
+    "niceName": "Item Frame",
+    "ID": "ITEM_FRAME"
+  },
+  {
+    "niceName": "Jack O Lantern",
+    "ID": "JACK_O_LANTERN"
+  },
+  {
+    "niceName": "Jigsaw",
+    "ID": "JIGSAW"
+  },
+  {
+    "niceName": "Jukebox",
+    "ID": "JUKEBOX"
+  },
+  {
+    "niceName": "Jungle Boat",
+    "ID": "JUNGLE_BOAT"
+  },
+  {
+    "niceName": "Jungle Button",
+    "ID": "JUNGLE_BUTTON"
+  },
+  {
+    "niceName": "Jungle Door",
+    "ID": "JUNGLE_DOOR"
+  },
+  {
+    "niceName": "Jungle Fence",
+    "ID": "JUNGLE_FENCE"
+  },
+  {
+    "niceName": "Jungle Fence Gate",
+    "ID": "JUNGLE_FENCE_GATE"
+  },
+  {
+    "niceName": "Jungle Leaves",
+    "ID": "JUNGLE_LEAVES"
+  },
+  {
+    "niceName": "Jungle Log",
+    "ID": "JUNGLE_LOG"
+  },
+  {
+    "niceName": "Jungle Planks",
+    "ID": "JUNGLE_PLANKS"
+  },
+  {
+    "niceName": "Jungle Pressure Plate",
+    "ID": "JUNGLE_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Jungle Sapling",
+    "ID": "JUNGLE_SAPLING"
+  },
+  {
+    "niceName": "Jungle Sign",
+    "ID": "JUNGLE_SIGN"
+  },
+  {
+    "niceName": "Jungle Slab",
+    "ID": "JUNGLE_SLAB"
+  },
+  {
+    "niceName": "Jungle Stairs",
+    "ID": "JUNGLE_STAIRS"
+  },
+  {
+    "niceName": "Jungle Trapdoor",
+    "ID": "JUNGLE_TRAPDOOR"
+  },
+  {
+    "niceName": "Jungle Wall Sign",
+    "ID": "JUNGLE_WALL_SIGN"
+  },
+  {
+    "niceName": "Jungle Wood",
+    "ID": "JUNGLE_WOOD"
+  },
+  {
+    "niceName": "Kelp",
+    "ID": "KELP"
+  },
+  {
+    "niceName": "Kelp Plant",
+    "ID": "KELP_PLANT"
+  },
+  {
+    "niceName": "Knowledge Book",
+    "ID": "KNOWLEDGE_BOOK"
+  },
+  {
+    "niceName": "Ladder",
+    "ID": "LADDER"
+  },
+  {
+    "niceName": "Lantern",
+    "ID": "LANTERN"
+  },
+  {
+    "niceName": "Lapis Block",
+    "ID": "LAPIS_BLOCK"
+  },
+  {
+    "niceName": "Lapis Lazuli",
+    "ID": "LAPIS_LAZULI"
+  },
+  {
+    "niceName": "Lapis Ore",
+    "ID": "LAPIS_ORE"
+  },
+  {
+    "niceName": "Large Fern",
+    "ID": "LARGE_FERN"
+  },
+  {
+    "niceName": "Lava",
+    "ID": "LAVA"
+  },
+  {
+    "niceName": "Lava Bucket",
+    "ID": "LAVA_BUCKET"
+  },
+  {
+    "niceName": "Lead",
+    "ID": "LEAD"
+  },
+  {
+    "niceName": "Leather",
+    "ID": "LEATHER"
+  },
+  {
+    "niceName": "Leather Boots",
+    "ID": "LEATHER_BOOTS"
+  },
+  {
+    "niceName": "Leather Chestplate",
+    "ID": "LEATHER_CHESTPLATE"
+  },
+  {
+    "niceName": "Leather Helmet",
+    "ID": "LEATHER_HELMET"
+  },
+  {
+    "niceName": "Leather Horse Armor",
+    "ID": "LEATHER_HORSE_ARMOR"
+  },
+  {
+    "niceName": "Leather Leggings",
+    "ID": "LEATHER_LEGGINGS"
+  },
+  {
+    "niceName": "Lectern",
+    "ID": "LECTERN"
+  },
+  {
+    "niceName": "Lever",
+    "ID": "LEVER"
+  },
+  {
+    "niceName": "Light Blue Banner",
+    "ID": "LIGHT_BLUE_BANNER"
+  },
+  {
+    "niceName": "Light Blue Bed",
+    "ID": "LIGHT_BLUE_BED"
+  },
+  {
+    "niceName": "Light Blue Carpet",
+    "ID": "LIGHT_BLUE_CARPET"
+  },
+  {
+    "niceName": "Light Blue Concrete",
+    "ID": "LIGHT_BLUE_CONCRETE"
+  },
+  {
+    "niceName": "Light Blue Concrete Powder",
+    "ID": "LIGHT_BLUE_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Light Blue Dye",
+    "ID": "LIGHT_BLUE_DYE"
+  },
+  {
+    "niceName": "Light Blue Glazed Terracotta",
+    "ID": "LIGHT_BLUE_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Light Blue Shulker Box",
+    "ID": "LIGHT_BLUE_SHULKER_BOX"
+  },
+  {
+    "niceName": "Light Blue Stained Glass",
+    "ID": "LIGHT_BLUE_STAINED_GLASS"
+  },
+  {
+    "niceName": "Light Blue Stained Glass Pane",
+    "ID": "LIGHT_BLUE_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Light Blue Terracotta",
+    "ID": "LIGHT_BLUE_TERRACOTTA"
+  },
+  {
+    "niceName": "Light Blue Wall Banner",
+    "ID": "LIGHT_BLUE_WALL_BANNER"
+  },
+  {
+    "niceName": "Light Blue Wool",
+    "ID": "LIGHT_BLUE_WOOL"
+  },
+  {
+    "niceName": "Light Gray Banner",
+    "ID": "LIGHT_GRAY_BANNER"
+  },
+  {
+    "niceName": "Light Gray Bed",
+    "ID": "LIGHT_GRAY_BED"
+  },
+  {
+    "niceName": "Light Gray Carpet",
+    "ID": "LIGHT_GRAY_CARPET"
+  },
+  {
+    "niceName": "Light Gray Concrete",
+    "ID": "LIGHT_GRAY_CONCRETE"
+  },
+  {
+    "niceName": "Light Gray Concrete Powder",
+    "ID": "LIGHT_GRAY_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Light Gray Dye",
+    "ID": "LIGHT_GRAY_DYE"
+  },
+  {
+    "niceName": "Light Gray Glazed Terracotta",
+    "ID": "LIGHT_GRAY_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Light Gray Shulker Box",
+    "ID": "LIGHT_GRAY_SHULKER_BOX"
+  },
+  {
+    "niceName": "Light Gray Stained Glass",
+    "ID": "LIGHT_GRAY_STAINED_GLASS"
+  },
+  {
+    "niceName": "Light Gray Stained Glass Pane",
+    "ID": "LIGHT_GRAY_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Light Gray Terracotta",
+    "ID": "LIGHT_GRAY_TERRACOTTA"
+  },
+  {
+    "niceName": "Light Gray Wall Banner",
+    "ID": "LIGHT_GRAY_WALL_BANNER"
+  },
+  {
+    "niceName": "Light Gray Wool",
+    "ID": "LIGHT_GRAY_WOOL"
+  },
+  {
+    "niceName": "Light Weighted Pressure Plate",
+    "ID": "LIGHT_WEIGHTED_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Lilac",
+    "ID": "LILAC"
+  },
+  {
+    "niceName": "Lily Of The Valley",
+    "ID": "LILY_OF_THE_VALLEY"
+  },
+  {
+    "niceName": "Lily Pad",
+    "ID": "LILY_PAD"
+  },
+  {
+    "niceName": "Lime Banner",
+    "ID": "LIME_BANNER"
+  },
+  {
+    "niceName": "Lime Bed",
+    "ID": "LIME_BED"
+  },
+  {
+    "niceName": "Lime Carpet",
+    "ID": "LIME_CARPET"
+  },
+  {
+    "niceName": "Lime Concrete",
+    "ID": "LIME_CONCRETE"
+  },
+  {
+    "niceName": "Lime Concrete Powder",
+    "ID": "LIME_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Lime Dye",
+    "ID": "LIME_DYE"
+  },
+  {
+    "niceName": "Lime Glazed Terracotta",
+    "ID": "LIME_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Lime Shulker Box",
+    "ID": "LIME_SHULKER_BOX"
+  },
+  {
+    "niceName": "Lime Stained Glass",
+    "ID": "LIME_STAINED_GLASS"
+  },
+  {
+    "niceName": "Lime Stained Glass Pane",
+    "ID": "LIME_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Lime Terracotta",
+    "ID": "LIME_TERRACOTTA"
+  },
+  {
+    "niceName": "Lime Wall Banner",
+    "ID": "LIME_WALL_BANNER"
+  },
+  {
+    "niceName": "Lime Wool",
+    "ID": "LIME_WOOL"
+  },
+  {
+    "niceName": "Lingering Potion",
+    "ID": "LINGERING_POTION"
+  },
+  {
+    "niceName": "Llama Spawn Egg",
+    "ID": "LLAMA_SPAWN_EGG"
+  },
+  {
+    "niceName": "Lodestone",
+    "ID": "LODESTONE"
+  },
+  {
+    "niceName": "Loom",
+    "ID": "LOOM"
+  },
+  {
+    "niceName": "Magenta Banner",
+    "ID": "MAGENTA_BANNER"
+  },
+  {
+    "niceName": "Magenta Bed",
+    "ID": "MAGENTA_BED"
+  },
+  {
+    "niceName": "Magenta Carpet",
+    "ID": "MAGENTA_CARPET"
+  },
+  {
+    "niceName": "Magenta Concrete",
+    "ID": "MAGENTA_CONCRETE"
+  },
+  {
+    "niceName": "Magenta Concrete Powder",
+    "ID": "MAGENTA_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Magenta Dye",
+    "ID": "MAGENTA_DYE"
+  },
+  {
+    "niceName": "Magenta Glazed Terracotta",
+    "ID": "MAGENTA_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Magenta Shulker Box",
+    "ID": "MAGENTA_SHULKER_BOX"
+  },
+  {
+    "niceName": "Magenta Stained Glass",
+    "ID": "MAGENTA_STAINED_GLASS"
+  },
+  {
+    "niceName": "Magenta Stained Glass Pane",
+    "ID": "MAGENTA_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Magenta Terracotta",
+    "ID": "MAGENTA_TERRACOTTA"
+  },
+  {
+    "niceName": "Magenta Wall Banner",
+    "ID": "MAGENTA_WALL_BANNER"
+  },
+  {
+    "niceName": "Magenta Wool",
+    "ID": "MAGENTA_WOOL"
+  },
+  {
+    "niceName": "Magma Block",
+    "ID": "MAGMA_BLOCK"
+  },
+  {
+    "niceName": "Magma Cream",
+    "ID": "MAGMA_CREAM"
+  },
+  {
+    "niceName": "Magma Cube Spawn Egg",
+    "ID": "MAGMA_CUBE_SPAWN_EGG"
+  },
+  {
+    "niceName": "Map",
+    "ID": "MAP"
+  },
+  {
+    "niceName": "Melon",
+    "ID": "MELON"
+  },
+  {
+    "niceName": "Melon Seeds",
+    "ID": "MELON_SEEDS"
+  },
+  {
+    "niceName": "Melon Slice",
+    "ID": "MELON_SLICE"
+  },
+  {
+    "niceName": "Melon Stem",
+    "ID": "MELON_STEM"
+  },
+  {
+    "niceName": "Milk Bucket",
+    "ID": "MILK_BUCKET"
+  },
+  {
+    "niceName": "Minecart",
+    "ID": "MINECART"
+  },
+  {
+    "niceName": "Mojang Banner Pattern",
+    "ID": "MOJANG_BANNER_PATTERN"
+  },
+  {
+    "niceName": "Mooshroom Spawn Egg",
+    "ID": "MOOSHROOM_SPAWN_EGG"
+  },
+  {
+    "niceName": "Mossy Cobblestone",
+    "ID": "MOSSY_COBBLESTONE"
+  },
+  {
+    "niceName": "Mossy Cobblestone Slab",
+    "ID": "MOSSY_COBBLESTONE_SLAB"
+  },
+  {
+    "niceName": "Mossy Cobblestone Stairs",
+    "ID": "MOSSY_COBBLESTONE_STAIRS"
+  },
+  {
+    "niceName": "Mossy Cobblestone Wall",
+    "ID": "MOSSY_COBBLESTONE_WALL"
+  },
+  {
+    "niceName": "Mossy Stone Bricks",
+    "ID": "MOSSY_STONE_BRICKS"
+  },
+  {
+    "niceName": "Mossy Stone Brick Slab",
+    "ID": "MOSSY_STONE_BRICK_SLAB"
+  },
+  {
+    "niceName": "Mossy Stone Brick Stairs",
+    "ID": "MOSSY_STONE_BRICK_STAIRS"
+  },
+  {
+    "niceName": "Mossy Stone Brick Wall",
+    "ID": "MOSSY_STONE_BRICK_WALL"
+  },
+  {
+    "niceName": "Moving Piston",
+    "ID": "MOVING_PISTON"
+  },
+  {
+    "niceName": "Mule Spawn Egg",
+    "ID": "MULE_SPAWN_EGG"
+  },
+  {
+    "niceName": "Mushroom Stem",
+    "ID": "MUSHROOM_STEM"
+  },
+  {
+    "niceName": "Mushroom Stew",
+    "ID": "MUSHROOM_STEW"
+  },
+  {
+    "niceName": "Music Disc 11",
+    "ID": "MUSIC_DISC_11"
+  },
+  {
+    "niceName": "Music Disc 13",
+    "ID": "MUSIC_DISC_13"
+  },
+  {
+    "niceName": "Music Disc Blocks",
+    "ID": "MUSIC_DISC_BLOCKS"
+  },
+  {
+    "niceName": "Music Disc Cat",
+    "ID": "MUSIC_DISC_CAT"
+  },
+  {
+    "niceName": "Music Disc Chirp",
+    "ID": "MUSIC_DISC_CHIRP"
+  },
+  {
+    "niceName": "Music Disc Far",
+    "ID": "MUSIC_DISC_FAR"
+  },
+  {
+    "niceName": "Music Disc Mall",
+    "ID": "MUSIC_DISC_MALL"
+  },
+  {
+    "niceName": "Music Disc Mellohi",
+    "ID": "MUSIC_DISC_MELLOHI"
+  },
+  {
+    "niceName": "Music Disc Stal",
+    "ID": "MUSIC_DISC_STAL"
+  },
+  {
+    "niceName": "Music Disc Strad",
+    "ID": "MUSIC_DISC_STRAD"
+  },
+  {
+    "niceName": "Music Disc Wait",
+    "ID": "MUSIC_DISC_WAIT"
+  },
+  {
+    "niceName": "Music Disc Ward",
+    "ID": "MUSIC_DISC_WARD"
+  },
+  {
+    "niceName": "Mutton",
+    "ID": "MUTTON"
+  },
+  {
+    "niceName": "Mycelium",
+    "ID": "MYCELIUM"
+  },
+  {
+    "niceName": "Name Tag",
+    "ID": "NAME_TAG"
+  },
+  {
+    "niceName": "Nautilus Shell",
+    "ID": "NAUTILUS_SHELL"
+  },
+  {
+    "niceName": "Netherite Axe",
+    "ID": "NETHERITE_AXE"
+  },
+  {
+    "niceName": "Netherite Block",
+    "ID": "NETHERITE_BLOCK"
+  },
+  {
+    "niceName": "Netherite Boots",
+    "ID": "NETHERITE_BOOTS"
+  },
+  {
+    "niceName": "Netherite Chestplate",
+    "ID": "NETHERITE_CHESTPLATE"
+  },
+  {
+    "niceName": "Netherite Helmet",
+    "ID": "NETHERITE_HELMET"
+  },
+  {
+    "niceName": "Netherite Hoe",
+    "ID": "NETHERITE_HOE"
+  },
+  {
+    "niceName": "Netherite Ingot",
+    "ID": "NETHERITE_INGOT"
+  },
+  {
+    "niceName": "Netherite Leggings",
+    "ID": "NETHERITE_LEGGINGS"
+  },
+  {
+    "niceName": "Netherite Pickaxe",
+    "ID": "NETHERITE_PICKAXE"
+  },
+  {
+    "niceName": "Netherite Scrap",
+    "ID": "NETHERITE_SCRAP"
+  },
+  {
+    "niceName": "Netherite Shovel",
+    "ID": "NETHERITE_SHOVEL"
+  },
+  {
+    "niceName": "Netherite Sword",
+    "ID": "NETHERITE_SWORD"
+  },
+  {
+    "niceName": "Netherrack",
+    "ID": "NETHERRACK"
+  },
+  {
+    "niceName": "Nether Brick",
+    "ID": "NETHER_BRICK"
+  },
+  {
+    "niceName": "Nether Bricks",
+    "ID": "NETHER_BRICKS"
+  },
+  {
+    "niceName": "Nether Brick Fence",
+    "ID": "NETHER_BRICK_FENCE"
+  },
+  {
+    "niceName": "Nether Brick Slab",
+    "ID": "NETHER_BRICK_SLAB"
+  },
+  {
+    "niceName": "Nether Brick Stairs",
+    "ID": "NETHER_BRICK_STAIRS"
+  },
+  {
+    "niceName": "Nether Brick Wall",
+    "ID": "NETHER_BRICK_WALL"
+  },
+  {
+    "niceName": "Nether Gold Ore",
+    "ID": "NETHER_GOLD_ORE"
+  },
+  {
+    "niceName": "Nether Portal",
+    "ID": "NETHER_PORTAL"
+  },
+  {
+    "niceName": "Nether Quartz Ore",
+    "ID": "NETHER_QUARTZ_ORE"
+  },
+  {
+    "niceName": "Nether Sprouts",
+    "ID": "NETHER_SPROUTS"
+  },
+  {
+    "niceName": "Nether Star",
+    "ID": "NETHER_STAR"
+  },
+  {
+    "niceName": "Nether Wart",
+    "ID": "NETHER_WART"
+  },
+  {
+    "niceName": "Nether Wart Block",
+    "ID": "NETHER_WART_BLOCK"
+  },
+  {
+    "niceName": "Note Block",
+    "ID": "NOTE_BLOCK"
+  },
+  {
+    "niceName": "Oak Boat",
+    "ID": "OAK_BOAT"
+  },
+  {
+    "niceName": "Oak Button",
+    "ID": "OAK_BUTTON"
+  },
+  {
+    "niceName": "Oak Door",
+    "ID": "OAK_DOOR"
+  },
+  {
+    "niceName": "Oak Fence",
+    "ID": "OAK_FENCE"
+  },
+  {
+    "niceName": "Oak Fence Gate",
+    "ID": "OAK_FENCE_GATE"
+  },
+  {
+    "niceName": "Oak Leaves",
+    "ID": "OAK_LEAVES"
+  },
+  {
+    "niceName": "Oak Log",
+    "ID": "OAK_LOG"
+  },
+  {
+    "niceName": "Oak Planks",
+    "ID": "OAK_PLANKS"
+  },
+  {
+    "niceName": "Oak Pressure Plate",
+    "ID": "OAK_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Oak Sapling",
+    "ID": "OAK_SAPLING"
+  },
+  {
+    "niceName": "Oak Sign",
+    "ID": "OAK_SIGN"
+  },
+  {
+    "niceName": "Oak Slab",
+    "ID": "OAK_SLAB"
+  },
+  {
+    "niceName": "Oak Stairs",
+    "ID": "OAK_STAIRS"
+  },
+  {
+    "niceName": "Oak Trapdoor",
+    "ID": "OAK_TRAPDOOR"
+  },
+  {
+    "niceName": "Oak Wall Sign",
+    "ID": "OAK_WALL_SIGN"
+  },
+  {
+    "niceName": "Oak Wood",
+    "ID": "OAK_WOOD"
+  },
+  {
+    "niceName": "Observer",
+    "ID": "OBSERVER"
+  },
+  {
+    "niceName": "Obsidian",
+    "ID": "OBSIDIAN"
+  },
+  {
+    "niceName": "Ocelot Spawn Egg",
+    "ID": "OCELOT_SPAWN_EGG"
+  },
+  {
+    "niceName": "Orange Banner",
+    "ID": "ORANGE_BANNER"
+  },
+  {
+    "niceName": "Orange Bed",
+    "ID": "ORANGE_BED"
+  },
+  {
+    "niceName": "Orange Carpet",
+    "ID": "ORANGE_CARPET"
+  },
+  {
+    "niceName": "Orange Concrete",
+    "ID": "ORANGE_CONCRETE"
+  },
+  {
+    "niceName": "Orange Concrete Powder",
+    "ID": "ORANGE_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Orange Dye",
+    "ID": "ORANGE_DYE"
+  },
+  {
+    "niceName": "Orange Glazed Terracotta",
+    "ID": "ORANGE_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Orange Shulker Box",
+    "ID": "ORANGE_SHULKER_BOX"
+  },
+  {
+    "niceName": "Orange Stained Glass",
+    "ID": "ORANGE_STAINED_GLASS"
+  },
+  {
+    "niceName": "Orange Stained Glass Pane",
+    "ID": "ORANGE_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Orange Terracotta",
+    "ID": "ORANGE_TERRACOTTA"
+  },
+  {
+    "niceName": "Orange Tulip",
+    "ID": "ORANGE_TULIP"
+  },
+  {
+    "niceName": "Orange Wall Banner",
+    "ID": "ORANGE_WALL_BANNER"
+  },
+  {
+    "niceName": "Orange Wool",
+    "ID": "ORANGE_WOOL"
+  },
+  {
+    "niceName": "Oxeye Daisy",
+    "ID": "OXEYE_DAISY"
+  },
+  {
+    "niceName": "Packed Ice",
+    "ID": "PACKED_ICE"
+  },
+  {
+    "niceName": "Painting",
+    "ID": "PAINTING"
+  },
+  {
+    "niceName": "Panda Spawn Egg",
+    "ID": "PANDA_SPAWN_EGG"
+  },
+  {
+    "niceName": "Paper",
+    "ID": "PAPER"
+  },
+  {
+    "niceName": "Parrot Spawn Egg",
+    "ID": "PARROT_SPAWN_EGG"
+  },
+  {
+    "niceName": "Peony",
+    "ID": "PEONY"
+  },
+  {
+    "niceName": "Petrified Oak Slab",
+    "ID": "PETRIFIED_OAK_SLAB"
+  },
+  {
+    "niceName": "Phantom Membrane",
+    "ID": "PHANTOM_MEMBRANE"
+  },
+  {
+    "niceName": "Phantom Spawn Egg",
+    "ID": "PHANTOM_SPAWN_EGG"
+  },
+  {
+    "niceName": "Piglin Spawn Egg",
+    "ID": "PIGLIN_SPAWN_EGG"
+  },
+  {
+    "niceName": "Pig Spawn Egg",
+    "ID": "PIG_SPAWN_EGG"
+  },
+  {
+    "niceName": "Pillager Spawn Egg",
+    "ID": "PILLAGER_SPAWN_EGG"
+  },
+  {
+    "niceName": "Pink Banner",
+    "ID": "PINK_BANNER"
+  },
+  {
+    "niceName": "Pink Bed",
+    "ID": "PINK_BED"
+  },
+  {
+    "niceName": "Pink Carpet",
+    "ID": "PINK_CARPET"
+  },
+  {
+    "niceName": "Pink Concrete",
+    "ID": "PINK_CONCRETE"
+  },
+  {
+    "niceName": "Pink Concrete Powder",
+    "ID": "PINK_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Pink Dye",
+    "ID": "PINK_DYE"
+  },
+  {
+    "niceName": "Pink Glazed Terracotta",
+    "ID": "PINK_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Pink Shulker Box",
+    "ID": "PINK_SHULKER_BOX"
+  },
+  {
+    "niceName": "Pink Stained Glass",
+    "ID": "PINK_STAINED_GLASS"
+  },
+  {
+    "niceName": "Pink Stained Glass Pane",
+    "ID": "PINK_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Pink Terracotta",
+    "ID": "PINK_TERRACOTTA"
+  },
+  {
+    "niceName": "Pink Tulip",
+    "ID": "PINK_TULIP"
+  },
+  {
+    "niceName": "Pink Wall Banner",
+    "ID": "PINK_WALL_BANNER"
+  },
+  {
+    "niceName": "Pink Wool",
+    "ID": "PINK_WOOL"
+  },
+  {
+    "niceName": "Piston",
+    "ID": "PISTON"
+  },
+  {
+    "niceName": "Piston Head",
+    "ID": "PISTON_HEAD"
+  },
+  {
+    "niceName": "Player Head",
+    "ID": "PLAYER_HEAD"
+  },
+  {
+    "niceName": "Player Wall Head",
+    "ID": "PLAYER_WALL_HEAD"
+  },
+  {
+    "niceName": "Podzol",
+    "ID": "PODZOL"
+  },
+  {
+    "niceName": "Poisonous Potato",
+    "ID": "POISONOUS_POTATO"
+  },
+  {
+    "niceName": "Polar Bear Spawn Egg",
+    "ID": "POLAR_BEAR_SPAWN_EGG"
+  },
+  {
+    "niceName": "Polished Andesite",
+    "ID": "POLISHED_ANDESITE"
+  },
+  {
+    "niceName": "Polished Andesite Slab",
+    "ID": "POLISHED_ANDESITE_SLAB"
+  },
+  {
+    "niceName": "Polished Andesite Stairs",
+    "ID": "POLISHED_ANDESITE_STAIRS"
+  },
+  {
+    "niceName": "Polished Basalt",
+    "ID": "POLISHED_BASALT"
+  },
+  {
+    "niceName": "Polished Blackstone",
+    "ID": "POLISHED_BLACKSTONE"
+  },
+  {
+    "niceName": "Polished Blackstone Bricks",
+    "ID": "POLISHED_BLACKSTONE_BRICKS"
+  },
+  {
+    "niceName": "Polished Blackstone Brick Slab",
+    "ID": "POLISHED_BLACKSTONE_BRICK_SLAB"
+  },
+  {
+    "niceName": "Polished Blackstone Brick Stairs",
+    "ID": "POLISHED_BLACKSTONE_BRICK_STAIRS"
+  },
+  {
+    "niceName": "Polished Blackstone Brick Wall",
+    "ID": "POLISHED_BLACKSTONE_BRICK_WALL"
+  },
+  {
+    "niceName": "Polished Blackstone Button",
+    "ID": "POLISHED_BLACKSTONE_BUTTON"
+  },
+  {
+    "niceName": "Polished Blackstone Pressure Plate",
+    "ID": "POLISHED_BLACKSTONE_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Polished Blackstone Slab",
+    "ID": "POLISHED_BLACKSTONE_SLAB"
+  },
+  {
+    "niceName": "Polished Blackstone Stairs",
+    "ID": "POLISHED_BLACKSTONE_STAIRS"
+  },
+  {
+    "niceName": "Polished Blackstone Wall",
+    "ID": "POLISHED_BLACKSTONE_WALL"
+  },
+  {
+    "niceName": "Polished Diorite",
+    "ID": "POLISHED_DIORITE"
+  },
+  {
+    "niceName": "Polished Diorite Slab",
+    "ID": "POLISHED_DIORITE_SLAB"
+  },
+  {
+    "niceName": "Polished Diorite Stairs",
+    "ID": "POLISHED_DIORITE_STAIRS"
+  },
+  {
+    "niceName": "Polished Granite",
+    "ID": "POLISHED_GRANITE"
+  },
+  {
+    "niceName": "Polished Granite Slab",
+    "ID": "POLISHED_GRANITE_SLAB"
+  },
+  {
+    "niceName": "Polished Granite Stairs",
+    "ID": "POLISHED_GRANITE_STAIRS"
+  },
+  {
+    "niceName": "Popped Chorus Fruit",
+    "ID": "POPPED_CHORUS_FRUIT"
+  },
+  {
+    "niceName": "Poppy",
+    "ID": "POPPY"
+  },
+  {
+    "niceName": "Porkchop",
+    "ID": "PORKCHOP"
+  },
+  {
+    "niceName": "Potato",
+    "ID": "POTATO"
+  },
+  {
+    "niceName": "Potatoes",
+    "ID": "POTATOES"
+  },
+  {
+    "niceName": "Potion",
+    "ID": "POTION"
+  },
+  {
+    "niceName": "Potted Acacia Sapling",
+    "ID": "POTTED_ACACIA_SAPLING"
+  },
+  {
+    "niceName": "Potted Allium",
+    "ID": "POTTED_ALLIUM"
+  },
+  {
+    "niceName": "Potted Azure Bluet",
+    "ID": "POTTED_AZURE_BLUET"
+  },
+  {
+    "niceName": "Potted Bamboo",
+    "ID": "POTTED_BAMBOO"
+  },
+  {
+    "niceName": "Potted Birch Sapling",
+    "ID": "POTTED_BIRCH_SAPLING"
+  },
+  {
+    "niceName": "Potted Blue Orchid",
+    "ID": "POTTED_BLUE_ORCHID"
+  },
+  {
+    "niceName": "Potted Brown Mushroom",
+    "ID": "POTTED_BROWN_MUSHROOM"
+  },
+  {
+    "niceName": "Potted Cactus",
+    "ID": "POTTED_CACTUS"
+  },
+  {
+    "niceName": "Potted Cornflower",
+    "ID": "POTTED_CORNFLOWER"
+  },
+  {
+    "niceName": "Potted Dandelion",
+    "ID": "POTTED_DANDELION"
+  },
+  {
+    "niceName": "Potted Dark Oak Sapling",
+    "ID": "POTTED_DARK_OAK_SAPLING"
+  },
+  {
+    "niceName": "Potted Dead Bush",
+    "ID": "POTTED_DEAD_BUSH"
+  },
+  {
+    "niceName": "Potted Fern",
+    "ID": "POTTED_FERN"
+  },
+  {
+    "niceName": "Potted Jungle Sapling",
+    "ID": "POTTED_JUNGLE_SAPLING"
+  },
+  {
+    "niceName": "Potted Lily Of The Valley",
+    "ID": "POTTED_LILY_OF_THE_VALLEY"
+  },
+  {
+    "niceName": "Potted Oak Sapling",
+    "ID": "POTTED_OAK_SAPLING"
+  },
+  {
+    "niceName": "Potted Orange Tulip",
+    "ID": "POTTED_ORANGE_TULIP"
+  },
+  {
+    "niceName": "Potted Oxeye Daisy",
+    "ID": "POTTED_OXEYE_DAISY"
+  },
+  {
+    "niceName": "Potted Pink Tulip",
+    "ID": "POTTED_PINK_TULIP"
+  },
+  {
+    "niceName": "Potted Poppy",
+    "ID": "POTTED_POPPY"
+  },
+  {
+    "niceName": "Potted Red Mushroom",
+    "ID": "POTTED_RED_MUSHROOM"
+  },
+  {
+    "niceName": "Potted Red Tulip",
+    "ID": "POTTED_RED_TULIP"
+  },
+  {
+    "niceName": "Potted Spruce Sapling",
+    "ID": "POTTED_SPRUCE_SAPLING"
+  },
+  {
+    "niceName": "Potted White Tulip",
+    "ID": "POTTED_WHITE_TULIP"
+  },
+  {
+    "niceName": "Potted Wither Rose",
+    "ID": "POTTED_WITHER_ROSE"
+  },
+  {
+    "niceName": "Powered Rail",
+    "ID": "POWERED_RAIL"
+  },
+  {
+    "niceName": "Prismarine",
+    "ID": "PRISMARINE"
+  },
+  {
+    "niceName": "Prismarine Bricks",
+    "ID": "PRISMARINE_BRICKS"
+  },
+  {
+    "niceName": "Prismarine Brick Slab",
+    "ID": "PRISMARINE_BRICK_SLAB"
+  },
+  {
+    "niceName": "Prismarine Brick Stairs",
+    "ID": "PRISMARINE_BRICK_STAIRS"
+  },
+  {
+    "niceName": "Prismarine Crystals",
+    "ID": "PRISMARINE_CRYSTALS"
+  },
+  {
+    "niceName": "Prismarine Shard",
+    "ID": "PRISMARINE_SHARD"
+  },
+  {
+    "niceName": "Prismarine Slab",
+    "ID": "PRISMARINE_SLAB"
+  },
+  {
+    "niceName": "Prismarine Stairs",
+    "ID": "PRISMARINE_STAIRS"
+  },
+  {
+    "niceName": "Prismarine Wall",
+    "ID": "PRISMARINE_WALL"
+  },
+  {
+    "niceName": "Pufferfish",
+    "ID": "PUFFERFISH"
+  },
+  {
+    "niceName": "Pufferfish Bucket",
+    "ID": "PUFFERFISH_BUCKET"
+  },
+  {
+    "niceName": "Pufferfish Spawn Egg",
+    "ID": "PUFFERFISH_SPAWN_EGG"
+  },
+  {
+    "niceName": "Pumpkin",
+    "ID": "PUMPKIN"
+  },
+  {
+    "niceName": "Pumpkin Pie",
+    "ID": "PUMPKIN_PIE"
+  },
+  {
+    "niceName": "Pumpkin Seeds",
+    "ID": "PUMPKIN_SEEDS"
+  },
+  {
+    "niceName": "Pumpkin Stem",
+    "ID": "PUMPKIN_STEM"
+  },
+  {
+    "niceName": "Purple Banner",
+    "ID": "PURPLE_BANNER"
+  },
+  {
+    "niceName": "Purple Bed",
+    "ID": "PURPLE_BED"
+  },
+  {
+    "niceName": "Purple Carpet",
+    "ID": "PURPLE_CARPET"
+  },
+  {
+    "niceName": "Purple Concrete",
+    "ID": "PURPLE_CONCRETE"
+  },
+  {
+    "niceName": "Purple Concrete Powder",
+    "ID": "PURPLE_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Purple Dye",
+    "ID": "PURPLE_DYE"
+  },
+  {
+    "niceName": "Purple Glazed Terracotta",
+    "ID": "PURPLE_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Purple Shulker Box",
+    "ID": "PURPLE_SHULKER_BOX"
+  },
+  {
+    "niceName": "Purple Stained Glass",
+    "ID": "PURPLE_STAINED_GLASS"
+  },
+  {
+    "niceName": "Purple Stained Glass Pane",
+    "ID": "PURPLE_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Purple Terracotta",
+    "ID": "PURPLE_TERRACOTTA"
+  },
+  {
+    "niceName": "Purple Wall Banner",
+    "ID": "PURPLE_WALL_BANNER"
+  },
+  {
+    "niceName": "Purple Wool",
+    "ID": "PURPLE_WOOL"
+  },
+  {
+    "niceName": "Purpur Block",
+    "ID": "PURPUR_BLOCK"
+  },
+  {
+    "niceName": "Purpur Pillar",
+    "ID": "PURPUR_PILLAR"
+  },
+  {
+    "niceName": "Purpur Slab",
+    "ID": "PURPUR_SLAB"
+  },
+  {
+    "niceName": "Purpur Stairs",
+    "ID": "PURPUR_STAIRS"
+  },
+  {
+    "niceName": "Quartz",
+    "ID": "QUARTZ"
+  },
+  {
+    "niceName": "Quartz Block",
+    "ID": "QUARTZ_BLOCK"
+  },
+  {
+    "niceName": "Quartz Pillar",
+    "ID": "QUARTZ_PILLAR"
+  },
+  {
+    "niceName": "Quartz Slab",
+    "ID": "QUARTZ_SLAB"
+  },
+  {
+    "niceName": "Quartz Stairs",
+    "ID": "QUARTZ_STAIRS"
+  },
+  {
+    "niceName": "Rabbit",
+    "ID": "RABBIT"
+  },
+  {
+    "niceName": "Rabbit Foot",
+    "ID": "RABBIT_FOOT"
+  },
+  {
+    "niceName": "Rabbit Hide",
+    "ID": "RABBIT_HIDE"
+  },
+  {
+    "niceName": "Rabbit Spawn Egg",
+    "ID": "RABBIT_SPAWN_EGG"
+  },
+  {
+    "niceName": "Rabbit Stew",
+    "ID": "RABBIT_STEW"
+  },
+  {
+    "niceName": "Rail",
+    "ID": "RAIL"
+  },
+  {
+    "niceName": "Ravager Spawn Egg",
+    "ID": "RAVAGER_SPAWN_EGG"
+  },
+  {
+    "niceName": "Redstone",
+    "ID": "REDSTONE"
+  },
+  {
+    "niceName": "Redstone Block",
+    "ID": "REDSTONE_BLOCK"
+  },
+  {
+    "niceName": "Redstone Lamp",
+    "ID": "REDSTONE_LAMP"
+  },
+  {
+    "niceName": "Redstone Ore",
+    "ID": "REDSTONE_ORE"
+  },
+  {
+    "niceName": "Redstone Torch",
+    "ID": "REDSTONE_TORCH"
+  },
+  {
+    "niceName": "Redstone Wall Torch",
+    "ID": "REDSTONE_WALL_TORCH"
+  },
+  {
+    "niceName": "Redstone Wire",
+    "ID": "REDSTONE_WIRE"
+  },
+  {
+    "niceName": "Red Banner",
+    "ID": "RED_BANNER"
+  },
+  {
+    "niceName": "Red Bed",
+    "ID": "RED_BED"
+  },
+  {
+    "niceName": "Red Carpet",
+    "ID": "RED_CARPET"
+  },
+  {
+    "niceName": "Red Concrete",
+    "ID": "RED_CONCRETE"
+  },
+  {
+    "niceName": "Red Concrete Powder",
+    "ID": "RED_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Red Dye",
+    "ID": "RED_DYE"
+  },
+  {
+    "niceName": "Red Glazed Terracotta",
+    "ID": "RED_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Red Mushroom",
+    "ID": "RED_MUSHROOM"
+  },
+  {
+    "niceName": "Red Mushroom Block",
+    "ID": "RED_MUSHROOM_BLOCK"
+  },
+  {
+    "niceName": "Red Nether Bricks",
+    "ID": "RED_NETHER_BRICKS"
+  },
+  {
+    "niceName": "Red Nether Brick Slab",
+    "ID": "RED_NETHER_BRICK_SLAB"
+  },
+  {
+    "niceName": "Red Nether Brick Stairs",
+    "ID": "RED_NETHER_BRICK_STAIRS"
+  },
+  {
+    "niceName": "Red Nether Brick Wall",
+    "ID": "RED_NETHER_BRICK_WALL"
+  },
+  {
+    "niceName": "Red Sand",
+    "ID": "RED_SAND"
+  },
+  {
+    "niceName": "Red Sandstone",
+    "ID": "RED_SANDSTONE"
+  },
+  {
+    "niceName": "Red Sandstone Slab",
+    "ID": "RED_SANDSTONE_SLAB"
+  },
+  {
+    "niceName": "Red Sandstone Stairs",
+    "ID": "RED_SANDSTONE_STAIRS"
+  },
+  {
+    "niceName": "Red Sandstone Wall",
+    "ID": "RED_SANDSTONE_WALL"
+  },
+  {
+    "niceName": "Red Shulker Box",
+    "ID": "RED_SHULKER_BOX"
+  },
+  {
+    "niceName": "Red Stained Glass",
+    "ID": "RED_STAINED_GLASS"
+  },
+  {
+    "niceName": "Red Stained Glass Pane",
+    "ID": "RED_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Red Terracotta",
+    "ID": "RED_TERRACOTTA"
+  },
+  {
+    "niceName": "Red Tulip",
+    "ID": "RED_TULIP"
+  },
+  {
+    "niceName": "Red Wall Banner",
+    "ID": "RED_WALL_BANNER"
+  },
+  {
+    "niceName": "Red Wool",
+    "ID": "RED_WOOL"
+  },
+  {
+    "niceName": "Repeater",
+    "ID": "REPEATER"
+  },
+  {
+    "niceName": "Repeating Command Block",
+    "ID": "REPEATING_COMMAND_BLOCK"
+  },
+  {
+    "niceName": "Respawn Anchor",
+    "ID": "RESPAWN_ANCHOR"
+  },
+  {
+    "niceName": "Rose Bush",
+    "ID": "ROSE_BUSH"
+  },
+  {
+    "niceName": "Rotten Flesh",
+    "ID": "ROTTEN_FLESH"
+  },
+  {
+    "niceName": "Saddle",
+    "ID": "SADDLE"
+  },
+  {
+    "niceName": "Salmon",
+    "ID": "SALMON"
+  },
+  {
+    "niceName": "Salmon Bucket",
+    "ID": "SALMON_BUCKET"
+  },
+  {
+    "niceName": "Salmon Spawn Egg",
+    "ID": "SALMON_SPAWN_EGG"
+  },
+  {
+    "niceName": "Sand",
+    "ID": "SAND"
+  },
+  {
+    "niceName": "Sandstone",
+    "ID": "SANDSTONE"
+  },
+  {
+    "niceName": "Sandstone Slab",
+    "ID": "SANDSTONE_SLAB"
+  },
+  {
+    "niceName": "Sandstone Stairs",
+    "ID": "SANDSTONE_STAIRS"
+  },
+  {
+    "niceName": "Sandstone Wall",
+    "ID": "SANDSTONE_WALL"
+  },
+  {
+    "niceName": "Scaffolding",
+    "ID": "SCAFFOLDING"
+  },
+  {
+    "niceName": "Scute",
+    "ID": "SCUTE"
+  },
+  {
+    "niceName": "Seagrass",
+    "ID": "SEAGRASS"
+  },
+  {
+    "niceName": "Sea Lantern",
+    "ID": "SEA_LANTERN"
+  },
+  {
+    "niceName": "Sea Pickle",
+    "ID": "SEA_PICKLE"
+  },
+  {
+    "niceName": "Shears",
+    "ID": "SHEARS"
+  },
+  {
+    "niceName": "Sheep Spawn Egg",
+    "ID": "SHEEP_SPAWN_EGG"
+  },
+  {
+    "niceName": "Shield",
+    "ID": "SHIELD"
+  },
+  {
+    "niceName": "Shroomlight",
+    "ID": "SHROOMLIGHT"
+  },
+  {
+    "niceName": "Shulker Box",
+    "ID": "SHULKER_BOX"
+  },
+  {
+    "niceName": "Shulker Shell",
+    "ID": "SHULKER_SHELL"
+  },
+  {
+    "niceName": "Shulker Spawn Egg",
+    "ID": "SHULKER_SPAWN_EGG"
+  },
+  {
+    "niceName": "Silverfish Spawn Egg",
+    "ID": "SILVERFISH_SPAWN_EGG"
+  },
+  {
+    "niceName": "Skeleton Horse Spawn Egg",
+    "ID": "SKELETON_HORSE_SPAWN_EGG"
+  },
+  {
+    "niceName": "Skeleton Skull",
+    "ID": "SKELETON_SKULL"
+  },
+  {
+    "niceName": "Skeleton Spawn Egg",
+    "ID": "SKELETON_SPAWN_EGG"
+  },
+  {
+    "niceName": "Skeleton Wall Skull",
+    "ID": "SKELETON_WALL_SKULL"
+  },
+  {
+    "niceName": "Skull Banner Pattern",
+    "ID": "SKULL_BANNER_PATTERN"
+  },
+  {
+    "niceName": "Slime Ball",
+    "ID": "SLIME_BALL"
+  },
+  {
+    "niceName": "Slime Block",
+    "ID": "SLIME_BLOCK"
+  },
+  {
+    "niceName": "Slime Spawn Egg",
+    "ID": "SLIME_SPAWN_EGG"
+  },
+  {
+    "niceName": "Smithing Table",
+    "ID": "SMITHING_TABLE"
+  },
+  {
+    "niceName": "Smoker",
+    "ID": "SMOKER"
+  },
+  {
+    "niceName": "Smooth Quartz",
+    "ID": "SMOOTH_QUARTZ"
+  },
+  {
+    "niceName": "Smooth Quartz Slab",
+    "ID": "SMOOTH_QUARTZ_SLAB"
+  },
+  {
+    "niceName": "Smooth Quartz Stairs",
+    "ID": "SMOOTH_QUARTZ_STAIRS"
+  },
+  {
+    "niceName": "Smooth Red Sandstone",
+    "ID": "SMOOTH_RED_SANDSTONE"
+  },
+  {
+    "niceName": "Smooth Red Sandstone Slab",
+    "ID": "SMOOTH_RED_SANDSTONE_SLAB"
+  },
+  {
+    "niceName": "Smooth Red Sandstone Stairs",
+    "ID": "SMOOTH_RED_SANDSTONE_STAIRS"
+  },
+  {
+    "niceName": "Smooth Sandstone",
+    "ID": "SMOOTH_SANDSTONE"
+  },
+  {
+    "niceName": "Smooth Sandstone Slab",
+    "ID": "SMOOTH_SANDSTONE_SLAB"
+  },
+  {
+    "niceName": "Smooth Sandstone Stairs",
+    "ID": "SMOOTH_SANDSTONE_STAIRS"
+  },
+  {
+    "niceName": "Smooth Stone",
+    "ID": "SMOOTH_STONE"
+  },
+  {
+    "niceName": "Smooth Stone Slab",
+    "ID": "SMOOTH_STONE_SLAB"
+  },
+  {
+    "niceName": "Snow",
+    "ID": "SNOW"
+  },
+  {
+    "niceName": "Snowball",
+    "ID": "SNOWBALL"
+  },
+  {
+    "niceName": "Snow Block",
+    "ID": "SNOW_BLOCK"
+  },
+  {
+    "niceName": "Soul Campfire",
+    "ID": "SOUL_CAMPFIRE"
+  },
+  {
+    "niceName": "Soul Fire",
+    "ID": "SOUL_FIRE"
+  },
+  {
+    "niceName": "Soul Lantern",
+    "ID": "SOUL_LANTERN"
+  },
+  {
+    "niceName": "Soul Sand",
+    "ID": "SOUL_SAND"
+  },
+  {
+    "niceName": "Soul Soil",
+    "ID": "SOUL_SOIL"
+  },
+  {
+    "niceName": "Soul Torch",
+    "ID": "SOUL_TORCH"
+  },
+  {
+    "niceName": "Soul Wall Torch",
+    "ID": "SOUL_WALL_TORCH"
+  },
+  {
+    "niceName": "Spawner",
+    "ID": "SPAWNER"
+  },
+  {
+    "niceName": "Spectral Arrow",
+    "ID": "SPECTRAL_ARROW"
+  },
+  {
+    "niceName": "Spider Eye",
+    "ID": "SPIDER_EYE"
+  },
+  {
+    "niceName": "Spider Spawn Egg",
+    "ID": "SPIDER_SPAWN_EGG"
+  },
+  {
+    "niceName": "Splash Potion",
+    "ID": "SPLASH_POTION"
+  },
+  {
+    "niceName": "Sponge",
+    "ID": "SPONGE"
+  },
+  {
+    "niceName": "Spruce Boat",
+    "ID": "SPRUCE_BOAT"
+  },
+  {
+    "niceName": "Spruce Button",
+    "ID": "SPRUCE_BUTTON"
+  },
+  {
+    "niceName": "Spruce Door",
+    "ID": "SPRUCE_DOOR"
+  },
+  {
+    "niceName": "Spruce Fence",
+    "ID": "SPRUCE_FENCE"
+  },
+  {
+    "niceName": "Spruce Fence Gate",
+    "ID": "SPRUCE_FENCE_GATE"
+  },
+  {
+    "niceName": "Spruce Leaves",
+    "ID": "SPRUCE_LEAVES"
+  },
+  {
+    "niceName": "Spruce Log",
+    "ID": "SPRUCE_LOG"
+  },
+  {
+    "niceName": "Spruce Planks",
+    "ID": "SPRUCE_PLANKS"
+  },
+  {
+    "niceName": "Spruce Pressure Plate",
+    "ID": "SPRUCE_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Spruce Sapling",
+    "ID": "SPRUCE_SAPLING"
+  },
+  {
+    "niceName": "Spruce Sign",
+    "ID": "SPRUCE_SIGN"
+  },
+  {
+    "niceName": "Spruce Slab",
+    "ID": "SPRUCE_SLAB"
+  },
+  {
+    "niceName": "Spruce Stairs",
+    "ID": "SPRUCE_STAIRS"
+  },
+  {
+    "niceName": "Spruce Trapdoor",
+    "ID": "SPRUCE_TRAPDOOR"
+  },
+  {
+    "niceName": "Spruce Wall Sign",
+    "ID": "SPRUCE_WALL_SIGN"
+  },
+  {
+    "niceName": "Spruce Wood",
+    "ID": "SPRUCE_WOOD"
+  },
+  {
+    "niceName": "Squid Spawn Egg",
+    "ID": "SQUID_SPAWN_EGG"
+  },
+  {
+    "niceName": "Stick",
+    "ID": "STICK"
+  },
+  {
+    "niceName": "Sticky Piston",
+    "ID": "STICKY_PISTON"
+  },
+  {
+    "niceName": "Stone",
+    "ID": "STONE"
+  },
+  {
+    "niceName": "Stonecutter",
+    "ID": "STONECUTTER"
+  },
+  {
+    "niceName": "Stone Axe",
+    "ID": "STONE_AXE"
+  },
+  {
+    "niceName": "Stone Bricks",
+    "ID": "STONE_BRICKS"
+  },
+  {
+    "niceName": "Stone Brick Slab",
+    "ID": "STONE_BRICK_SLAB"
+  },
+  {
+    "niceName": "Stone Brick Stairs",
+    "ID": "STONE_BRICK_STAIRS"
+  },
+  {
+    "niceName": "Stone Brick Wall",
+    "ID": "STONE_BRICK_WALL"
+  },
+  {
+    "niceName": "Stone Button",
+    "ID": "STONE_BUTTON"
+  },
+  {
+    "niceName": "Stone Hoe",
+    "ID": "STONE_HOE"
+  },
+  {
+    "niceName": "Stone Pickaxe",
+    "ID": "STONE_PICKAXE"
+  },
+  {
+    "niceName": "Stone Pressure Plate",
+    "ID": "STONE_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Stone Shovel",
+    "ID": "STONE_SHOVEL"
+  },
+  {
+    "niceName": "Stone Slab",
+    "ID": "STONE_SLAB"
+  },
+  {
+    "niceName": "Stone Stairs",
+    "ID": "STONE_STAIRS"
+  },
+  {
+    "niceName": "Stone Sword",
+    "ID": "STONE_SWORD"
+  },
+  {
+    "niceName": "Stray Spawn Egg",
+    "ID": "STRAY_SPAWN_EGG"
+  },
+  {
+    "niceName": "Strider Spawn Egg",
+    "ID": "STRIDER_SPAWN_EGG"
+  },
+  {
+    "niceName": "String",
+    "ID": "STRING"
+  },
+  {
+    "niceName": "Stripped Acacia Log",
+    "ID": "STRIPPED_ACACIA_LOG"
+  },
+  {
+    "niceName": "Stripped Acacia Wood",
+    "ID": "STRIPPED_ACACIA_WOOD"
+  },
+  {
+    "niceName": "Stripped Birch Log",
+    "ID": "STRIPPED_BIRCH_LOG"
+  },
+  {
+    "niceName": "Stripped Birch Wood",
+    "ID": "STRIPPED_BIRCH_WOOD"
+  },
+  {
+    "niceName": "Stripped Crimson Hyphae",
+    "ID": "STRIPPED_CRIMSON_HYPHAE"
+  },
+  {
+    "niceName": "Stripped Crimson Stem",
+    "ID": "STRIPPED_CRIMSON_STEM"
+  },
+  {
+    "niceName": "Stripped Dark Oak Log",
+    "ID": "STRIPPED_DARK_OAK_LOG"
+  },
+  {
+    "niceName": "Stripped Dark Oak Wood",
+    "ID": "STRIPPED_DARK_OAK_WOOD"
+  },
+  {
+    "niceName": "Stripped Jungle Log",
+    "ID": "STRIPPED_JUNGLE_LOG"
+  },
+  {
+    "niceName": "Stripped Jungle Wood",
+    "ID": "STRIPPED_JUNGLE_WOOD"
+  },
+  {
+    "niceName": "Stripped Oak Log",
+    "ID": "STRIPPED_OAK_LOG"
+  },
+  {
+    "niceName": "Stripped Oak Wood",
+    "ID": "STRIPPED_OAK_WOOD"
+  },
+  {
+    "niceName": "Stripped Spruce Log",
+    "ID": "STRIPPED_SPRUCE_LOG"
+  },
+  {
+    "niceName": "Stripped Spruce Wood",
+    "ID": "STRIPPED_SPRUCE_WOOD"
+  },
+  {
+    "niceName": "Stripped Warped Hyphae",
+    "ID": "STRIPPED_WARPED_HYPHAE"
+  },
+  {
+    "niceName": "Stripped Warped Stem",
+    "ID": "STRIPPED_WARPED_STEM"
+  },
+  {
+    "niceName": "Structure Block",
+    "ID": "STRUCTURE_BLOCK"
+  },
+  {
+    "niceName": "Structure Void",
+    "ID": "STRUCTURE_VOID"
+  },
+  {
+    "niceName": "Sugar",
+    "ID": "SUGAR"
+  },
+  {
+    "niceName": "Sugar Cane",
+    "ID": "SUGAR_CANE"
+  },
+  {
+    "niceName": "Sunflower",
+    "ID": "SUNFLOWER"
+  },
+  {
+    "niceName": "Suspicious Stew",
+    "ID": "SUSPICIOUS_STEW"
+  },
+  {
+    "niceName": "Sweet Berries",
+    "ID": "SWEET_BERRIES"
+  },
+  {
+    "niceName": "Sweet Berry Bush",
+    "ID": "SWEET_BERRY_BUSH"
+  },
+  {
+    "niceName": "Tall Grass",
+    "ID": "TALL_GRASS"
+  },
+  {
+    "niceName": "Tall Seagrass",
+    "ID": "TALL_SEAGRASS"
+  },
+  {
+    "niceName": "Target",
+    "ID": "TARGET"
+  },
+  {
+    "niceName": "Terracotta",
+    "ID": "TERRACOTTA"
+  },
+  {
+    "niceName": "Tipped Arrow",
+    "ID": "TIPPED_ARROW"
+  },
+  {
+    "niceName": "Tnt",
+    "ID": "TNT"
+  },
+  {
+    "niceName": "Tnt Minecart",
+    "ID": "TNT_MINECART"
+  },
+  {
+    "niceName": "Torch",
+    "ID": "TORCH"
+  },
+  {
+    "niceName": "Totem Of Undying",
+    "ID": "TOTEM_OF_UNDYING"
+  },
+  {
+    "niceName": "Trader Llama Spawn Egg",
+    "ID": "TRADER_LLAMA_SPAWN_EGG"
+  },
+  {
+    "niceName": "Trapped Chest",
+    "ID": "TRAPPED_CHEST"
+  },
+  {
+    "niceName": "Trident",
+    "ID": "TRIDENT"
+  },
+  {
+    "niceName": "Tripwire",
+    "ID": "TRIPWIRE"
+  },
+  {
+    "niceName": "Tripwire Hook",
+    "ID": "TRIPWIRE_HOOK"
+  },
+  {
+    "niceName": "Tropical Fish",
+    "ID": "TROPICAL_FISH"
+  },
+  {
+    "niceName": "Tropical Fish Bucket",
+    "ID": "TROPICAL_FISH_BUCKET"
+  },
+  {
+    "niceName": "Tropical Fish Spawn Egg",
+    "ID": "TROPICAL_FISH_SPAWN_EGG"
+  },
+  {
+    "niceName": "Tube Coral",
+    "ID": "TUBE_CORAL"
+  },
+  {
+    "niceName": "Tube Coral Block",
+    "ID": "TUBE_CORAL_BLOCK"
+  },
+  {
+    "niceName": "Tube Coral Fan",
+    "ID": "TUBE_CORAL_FAN"
+  },
+  {
+    "niceName": "Tube Coral Wall Fan",
+    "ID": "TUBE_CORAL_WALL_FAN"
+  },
+  {
+    "niceName": "Turtle Egg",
+    "ID": "TURTLE_EGG"
+  },
+  {
+    "niceName": "Turtle Helmet",
+    "ID": "TURTLE_HELMET"
+  },
+  {
+    "niceName": "Turtle Spawn Egg",
+    "ID": "TURTLE_SPAWN_EGG"
+  },
+  {
+    "niceName": "Twisting Vines",
+    "ID": "TWISTING_VINES"
+  },
+  {
+    "niceName": "Twisting Vines Plant",
+    "ID": "TWISTING_VINES_PLANT"
+  },
+  {
+    "niceName": "Vex Spawn Egg",
+    "ID": "VEX_SPAWN_EGG"
+  },
+  {
+    "niceName": "Villager Spawn Egg",
+    "ID": "VILLAGER_SPAWN_EGG"
+  },
+  {
+    "niceName": "Vindicator Spawn Egg",
+    "ID": "VINDICATOR_SPAWN_EGG"
+  },
+  {
+    "niceName": "Vine",
+    "ID": "VINE"
+  },
+  {
+    "niceName": "Void Air",
+    "ID": "VOID_AIR"
+  },
+  {
+    "niceName": "Wall Torch",
+    "ID": "WALL_TORCH"
+  },
+  {
+    "niceName": "Wandering Trader Spawn Egg",
+    "ID": "WANDERING_TRADER_SPAWN_EGG"
+  },
+  {
+    "niceName": "Warped Button",
+    "ID": "WARPED_BUTTON"
+  },
+  {
+    "niceName": "Warped Door",
+    "ID": "WARPED_DOOR"
+  },
+  {
+    "niceName": "Warped Fence",
+    "ID": "WARPED_FENCE"
+  },
+  {
+    "niceName": "Warped Fence Gate",
+    "ID": "WARPED_FENCE_GATE"
+  },
+  {
+    "niceName": "Warped Fungus",
+    "ID": "WARPED_FUNGUS"
+  },
+  {
+    "niceName": "Warped Fungus On A Stick",
+    "ID": "WARPED_FUNGUS_ON_A_STICK"
+  },
+  {
+    "niceName": "Warped Hyphae",
+    "ID": "WARPED_HYPHAE"
+  },
+  {
+    "niceName": "Warped Nylium",
+    "ID": "WARPED_NYLIUM"
+  },
+  {
+    "niceName": "Warped Planks",
+    "ID": "WARPED_PLANKS"
+  },
+  {
+    "niceName": "Warped Pressure Plate",
+    "ID": "WARPED_PRESSURE_PLATE"
+  },
+  {
+    "niceName": "Warped Roots",
+    "ID": "WARPED_ROOTS"
+  },
+  {
+    "niceName": "Warped Sign",
+    "ID": "WARPED_SIGN"
+  },
+  {
+    "niceName": "Warped Slab",
+    "ID": "WARPED_SLAB"
+  },
+  {
+    "niceName": "Warped Stairs",
+    "ID": "WARPED_STAIRS"
+  },
+  {
+    "niceName": "Warped Stem",
+    "ID": "WARPED_STEM"
+  },
+  {
+    "niceName": "Warped Trapdoor",
+    "ID": "WARPED_TRAPDOOR"
+  },
+  {
+    "niceName": "Warped Wall Sign",
+    "ID": "WARPED_WALL_SIGN"
+  },
+  {
+    "niceName": "Warped Wart Block",
+    "ID": "WARPED_WART_BLOCK"
+  },
+  {
+    "niceName": "Water",
+    "ID": "WATER"
+  },
+  {
+    "niceName": "Water Bucket",
+    "ID": "WATER_BUCKET"
+  },
+  {
+    "niceName": "Weeping Vines",
+    "ID": "WEEPING_VINES"
+  },
+  {
+    "niceName": "Weeping Vines Plant",
+    "ID": "WEEPING_VINES_PLANT"
+  },
+  {
+    "niceName": "Wet Sponge",
+    "ID": "WET_SPONGE"
+  },
+  {
+    "niceName": "Wheat",
+    "ID": "WHEAT"
+  },
+  {
+    "niceName": "Wheat Seeds",
+    "ID": "WHEAT_SEEDS"
+  },
+  {
+    "niceName": "White Banner",
+    "ID": "WHITE_BANNER"
+  },
+  {
+    "niceName": "White Bed",
+    "ID": "WHITE_BED"
+  },
+  {
+    "niceName": "White Carpet",
+    "ID": "WHITE_CARPET"
+  },
+  {
+    "niceName": "White Concrete",
+    "ID": "WHITE_CONCRETE"
+  },
+  {
+    "niceName": "White Concrete Powder",
+    "ID": "WHITE_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "White Dye",
+    "ID": "WHITE_DYE"
+  },
+  {
+    "niceName": "White Glazed Terracotta",
+    "ID": "WHITE_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "White Shulker Box",
+    "ID": "WHITE_SHULKER_BOX"
+  },
+  {
+    "niceName": "White Stained Glass",
+    "ID": "WHITE_STAINED_GLASS"
+  },
+  {
+    "niceName": "White Stained Glass Pane",
+    "ID": "WHITE_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "White Terracotta",
+    "ID": "WHITE_TERRACOTTA"
+  },
+  {
+    "niceName": "White Tulip",
+    "ID": "WHITE_TULIP"
+  },
+  {
+    "niceName": "White Wall Banner",
+    "ID": "WHITE_WALL_BANNER"
+  },
+  {
+    "niceName": "White Wool",
+    "ID": "WHITE_WOOL"
+  },
+  {
+    "niceName": "Witch Spawn Egg",
+    "ID": "WITCH_SPAWN_EGG"
+  },
+  {
+    "niceName": "Wither Rose",
+    "ID": "WITHER_ROSE"
+  },
+  {
+    "niceName": "Wither Skeleton Skull",
+    "ID": "WITHER_SKELETON_SKULL"
+  },
+  {
+    "niceName": "Wither Skeleton Spawn Egg",
+    "ID": "WITHER_SKELETON_SPAWN_EGG"
+  },
+  {
+    "niceName": "Wither Skeleton Wall Skull",
+    "ID": "WITHER_SKELETON_WALL_SKULL"
+  },
+  {
+    "niceName": "Wolf Spawn Egg",
+    "ID": "WOLF_SPAWN_EGG"
+  },
+  {
+    "niceName": "Wooden Axe",
+    "ID": "WOODEN_AXE"
+  },
+  {
+    "niceName": "Wooden Hoe",
+    "ID": "WOODEN_HOE"
+  },
+  {
+    "niceName": "Wooden Pickaxe",
+    "ID": "WOODEN_PICKAXE"
+  },
+  {
+    "niceName": "Wooden Shovel",
+    "ID": "WOODEN_SHOVEL"
+  },
+  {
+    "niceName": "Wooden Sword",
+    "ID": "WOODEN_SWORD"
+  },
+  {
+    "niceName": "Writable Book",
+    "ID": "WRITABLE_BOOK"
+  },
+  {
+    "niceName": "Written Book",
+    "ID": "WRITTEN_BOOK"
+  },
+  {
+    "niceName": "Yellow Banner",
+    "ID": "YELLOW_BANNER"
+  },
+  {
+    "niceName": "Yellow Bed",
+    "ID": "YELLOW_BED"
+  },
+  {
+    "niceName": "Yellow Carpet",
+    "ID": "YELLOW_CARPET"
+  },
+  {
+    "niceName": "Yellow Concrete",
+    "ID": "YELLOW_CONCRETE"
+  },
+  {
+    "niceName": "Yellow Concrete Powder",
+    "ID": "YELLOW_CONCRETE_POWDER"
+  },
+  {
+    "niceName": "Yellow Dye",
+    "ID": "YELLOW_DYE"
+  },
+  {
+    "niceName": "Yellow Glazed Terracotta",
+    "ID": "YELLOW_GLAZED_TERRACOTTA"
+  },
+  {
+    "niceName": "Yellow Shulker Box",
+    "ID": "YELLOW_SHULKER_BOX"
+  },
+  {
+    "niceName": "Yellow Stained Glass",
+    "ID": "YELLOW_STAINED_GLASS"
+  },
+  {
+    "niceName": "Yellow Stained Glass Pane",
+    "ID": "YELLOW_STAINED_GLASS_PANE"
+  },
+  {
+    "niceName": "Yellow Terracotta",
+    "ID": "YELLOW_TERRACOTTA"
+  },
+  {
+    "niceName": "Yellow Wall Banner",
+    "ID": "YELLOW_WALL_BANNER"
+  },
+  {
+    "niceName": "Yellow Wool",
+    "ID": "YELLOW_WOOL"
+  },
+  {
+    "niceName": "Zoglin Spawn Egg",
+    "ID": "ZOGLIN_SPAWN_EGG"
+  },
+  {
+    "niceName": "Zombie Head",
+    "ID": "ZOMBIE_HEAD"
+  },
+  {
+    "niceName": "Zombie Horse Spawn Egg",
+    "ID": "ZOMBIE_HORSE_SPAWN_EGG"
+  },
+  {
+    "niceName": "Zombie Spawn Egg",
+    "ID": "ZOMBIE_SPAWN_EGG"
+  },
+  {
+    "niceName": "Zombie Villager Spawn Egg",
+    "ID": "ZOMBIE_VILLAGER_SPAWN_EGG"
+  },
+  {
+    "niceName": "Zombie Wall Head",
+    "ID": "ZOMBIE_WALL_HEAD"
+  },
+  {
+    "niceName": "Zombified Piglin Spawn Egg",
+    "ID": "ZOMBIFIED_PIGLIN_SPAWN_EGG"
+  }
+]

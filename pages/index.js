@@ -9,6 +9,9 @@ export default function Home() {
 
   return (
     <PageWrapper>
+      <Head>
+        <title>plugin-toolkit</title>
+      </Head>
       <Header>
         <CodeContainer>
           <Code>plugin-toolkit 🛠</Code>
@@ -33,6 +36,16 @@ export default function Home() {
             </CardLightText>
             <CardLightText>
               Works for all plugins using the XMaterial library.
+            </CardLightText>
+          </CardContentContainer>
+        </Card
+        ><Card header={"JSON Validator"} to="/tools/jsonvalidator">
+          <CardContentContainer>
+            <CardLightText>
+              Easily check your JSON configuration files.
+            </CardLightText>
+            <CardLightText>
+              Works for any JSON data or configuration file.
             </CardLightText>
           </CardContentContainer>
         </Card>
@@ -78,9 +91,9 @@ const SubHeader = styled.h2`
 const CardContainer = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
-  padding: 0 4em;
-  padding-top: 4rem;
+  padding: 4rem 4em 0;
 `;
 
 const CardContentContainer = styled.div`
@@ -89,7 +102,7 @@ const CardContentContainer = styled.div`
 
 const CardText = styled.h5`
   padding-top: 15px;
-  font-weight: medium;
+  font-weight: 400;
 `;
 
 const CardLightText = styled.h5`

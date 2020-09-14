@@ -34,11 +34,10 @@ export default function Navbar() {
 const Container = styled.div`
   display: flex;
   flex-direction: row;
-
   align-items: center;
-
   background: #ffffff;
   padding: 25px;
+  height: 100px;
 `;
 
 const Code = styled.code`

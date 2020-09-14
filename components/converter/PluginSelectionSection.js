@@ -79,7 +79,8 @@ const SelectedText = styled.p`
 
 const ButtonContainer = styled.div`
   display: flex;
-  padding-top: 15px;
+  justify-content: center;
+  padding: 15px;
 `;
 
 const ButtonItem = styled.div`
