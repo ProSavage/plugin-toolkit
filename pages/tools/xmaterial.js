@@ -35,7 +35,6 @@ const Wrapper = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  
 `;
 
 const Container = styled.div`

@@ -7,7 +7,7 @@ import Head from "next/head";
 
 export default function ConverterPage(props) {
     return (
-        <Wrapper className={"OrangeAnimatedGradient"}>
+        <Wrapper>
             <Head>
                 <title>FactionsX Converter</title>
             </Head>
@@ -23,6 +23,7 @@ export default function ConverterPage(props) {
 }
 
 const Wrapper = styled.div`
+  background:  #ffa439;
   padding-top: 50px;
   display: flex;
   flex-direction: column;

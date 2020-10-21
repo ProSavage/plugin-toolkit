@@ -15,12 +15,10 @@ export default function Button(props) {
 }
 
 const StyledButton = styled.button`
-  font-weight: medium;
   font-size: 17px;
   text-align: center;
   background: black;
   box-sizing: border-box;
-  border-radius: 8px;
   color: white;
   border-radius: 4px;
   padding: 8px 20px;
@@ -38,7 +36,7 @@ const StyledButton = styled.button`
     css`
       color: black;
       background: white;
-      border: 2px solid #eaeaea;
+      border: 2px dashed #eaeaea;
 
       &:hover {
           color: black;

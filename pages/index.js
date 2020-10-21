@@ -1,12 +1,9 @@
 import Head from "next/head";
 import styled from "styled-components";
 import Card from "./../components/home/Card";
+import React from "react";
 
 export default function Home() {
-
-
-
-
   return (
     <PageWrapper>
       <Head>

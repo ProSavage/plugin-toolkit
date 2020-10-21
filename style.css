@@ -30,27 +30,3 @@ a {
   text-decoration: none;
 }
 
-.OrangeAnimatedGradient {
-  background: linear-gradient(275deg, #ffa439, #ff5353);
-  background-size: 400% 400%;
-
-  -webkit-animation: AnimationName 7s ease infinite;
-  -moz-animation: AnimationName 7s ease infinite;
-  animation: AnimationName 7s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-  0%{background-position:0% 13%}
-  50%{background-position:100% 88%}
-  100%{background-position:0% 13%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:0% 13%}
-  50%{background-position:100% 88%}
-  100%{background-position:0% 13%}
-}
-@keyframes AnimationName {
-  0%{background-position:0% 13%}
-  50%{background-position:100% 88%}
-  100%{background-position:0% 13%}
-}
